@@ -8,7 +8,7 @@ const UserSchema = new mongoose.Schema({
     required: true,
   },
   sessionId:String,
-  isOnline: Boolean,
+  // isOnline: Boolean,
   createdAt: { type: Date, default: Date.now },
 });
 module.exports = mongoose.model("User", UserSchema);

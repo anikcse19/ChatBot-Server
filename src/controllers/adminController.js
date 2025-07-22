@@ -1,14 +1,43 @@
 const Conversation = require("../models/Conversation");
 const User = require("../models/User");
-const { learnReplyFromAdmin } = require("../utils/matcher");
 
-// admin login
-exports.adminLogin=async (req, res) => {
-  const { adminId, isOnline } = req.body;
-  await User.findByIdAndUpdate(adminId, { isOnline });
-  res.json({ message: "Admin status updated" });
+
+// admin login--modified
+exports.adminActive = async (req, res) => {
+  const { sessionId, isAdminOnline } = req.body;
+  console.log("Admin active status update:", sessionId, isAdminOnline);
+
+  try {
+    const conversation = await Conversation.findOneAndUpdate(
+      { sessionId },
+      { isAdminOnline },
+      { new: true }
+    );
+
+    if (!conversation) {
+      return res.status(404).json({ error: "Conversation not found" });
+    }
+
+    // ✅ Emit socket event to notify user about admin status
+    const io = req.app.get("io"); // get io instance from app
+    if (io) {
+      io.to(sessionId).emit("admin-status", {
+        sessionId,
+        isAdminOnline,
+        message: isAdminOnline ? "Admin is online" : "Admin is offline",
+      });
+    }
+
+    res.json({ message: "Admin status updated", conversation });
+  } catch (error) {
+    console.error("Error updating admin status:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
 };
-// admin reply controler in backend
+
+
+
+// admin reply controller in backend
 exports.adminReply = async (req, res) => {
   const { sessionId, message } = req.body;
 
@@ -38,7 +67,17 @@ exports.adminReply = async (req, res) => {
   res.json({ message: "Reply saved and emitted" });
 };
 
-
+//  GET admin status
+exports.adminStatus =  async (req, res) => {
+  try {
+    const admin = await User.findById(req.params.adminId);
+    if (!admin) return res.status(404).json({ error: "Admin not found" });
+    res.status(200).json({ isOnline: admin.isOnline });
+  } catch (error) {
+    console.error("Error getting admin status:", error);
+    res.status(500).json({ error: "Server error" });
+  }
+};
 // exports.adminReply = async (req, res) => {
 //   const { sessionId, messages } = req.body;
 

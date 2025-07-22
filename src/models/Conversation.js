@@ -14,8 +14,9 @@ const ConversationSchema = new mongoose.Schema({
   userId: Types.ObjectId,
   sessionId: String,
   userName: String,
+  isAdminOnline: Boolean,
   messages: [MessageSchema],
-  createdAt: { type: Date, default: Date.now }
+  createdAt: { type: Date, default: Date.now },
 });
 
 module.exports = mongoose.model('Conversation', ConversationSchema);

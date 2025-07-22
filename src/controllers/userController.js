@@ -14,13 +14,13 @@ exports.createUser = async (req, res) => {
     if (existing) {
       return res.status(409).json({ error: "Email already exists" });
     }
-    const sessionId = crypto.randomBytes(16).toString("hex");
+    const sessionId = crypto.randomBytes(12).toString("hex");
     const user = new User({
       name,
       email,
       role,
       sessionId,
-      isOnline: role === "admin" ? !!isOnline : undefined,
+      // isOnline: role === "admin" ? !!isOnline : undefined,
     });
 
     // const user = new User({

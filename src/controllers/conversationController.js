@@ -15,6 +15,7 @@ const user = await User.findOne({ _id: userId });
       sessionId,
       userName:user.name,
       userId,
+      isAdminOnline:false,
       messages: [],
     });
   }
@@ -39,7 +40,10 @@ const user = await User.findOne({ _id: userId });
 
 
   // 2. Check if any admin is online
-  const activeAdmin = await User.findOne({ role: "admin", isOnline: true });
+  const activeAdmin = await Conversation.findOne({
+    sessionId,
+    isAdminOnline: true,
+  });
 
   if (activeAdmin) {
     // Admin will reply later manually
