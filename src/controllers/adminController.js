@@ -1,7 +1,6 @@
 const Conversation = require("../models/Conversation");
 const User = require("../models/User");
 
-
 // admin login--modified
 exports.adminActive = async (req, res) => {
   const { sessionId, isAdminOnline } = req.body;
@@ -15,7 +14,7 @@ exports.adminActive = async (req, res) => {
     );
 
     if (!conversation) {
-      return res.status(404).json({ error: "Conversation not found" });
+      return res.status(404).json({ error: "Conversation not found." });
     }
 
     // ✅ Emit socket event to notify user about admin status
@@ -35,8 +34,6 @@ exports.adminActive = async (req, res) => {
   }
 };
 
-
-
 // admin reply controller in backend
 exports.adminReply = async (req, res) => {
   const { sessionId, message } = req.body;
@@ -53,10 +50,10 @@ exports.adminReply = async (req, res) => {
 
   // Emit real-time update
   const io = req.app.get("io");
-    console.log("Emitting admin-reply", {
-      sessionId,
-      text: message.text,
-    });
+  console.log("Emitting admin-reply", {
+    sessionId,
+    text: message.text,
+  });
   if (io) {
     io.to(sessionId).emit("admin-reply", {
       sessionId,
@@ -68,7 +65,7 @@ exports.adminReply = async (req, res) => {
 };
 
 //  GET admin status
-exports.adminStatus =  async (req, res) => {
+exports.adminStatus = async (req, res) => {
   try {
     const admin = await User.findById(req.params.adminId);
     if (!admin) return res.status(404).json({ error: "Admin not found" });
@@ -107,9 +104,9 @@ exports.adminStatus =  async (req, res) => {
 exports.getAllMessages = async (req, res) => {
   try {
     const conversations = await Conversation.find();
-// conversations[0].messages.forEach((message, index) => {
-//   console.log(`Message ${index + 1}:`, message);
-// });
+    // conversations[0].messages.forEach((message, index) => {
+    //   console.log(`Message ${index + 1}:`, message);
+    // });
     // Flatten all messages into one array (optional)
     const allMessages = conversations.flatMap((conv) =>
       conv.messages
