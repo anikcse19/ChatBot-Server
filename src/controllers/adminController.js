@@ -37,8 +37,6 @@ exports.adminActive = async (req, res) => {
   }
 };
 
-<<<<<<< HEAD
-=======
 // image reply
 exports.adminImageReply = async (req, res) => {
   const { sessionId, imageData, fileName } = req.body;
@@ -87,8 +85,6 @@ exports.adminImageReply = async (req, res) => {
   }
 };
 
-
->>>>>>> 0a5f54483b69848c1fafa4359ab92ada06023611
 // admin reply controller in backend
 exports.adminReply = async (req, res) => {
   const { sessionId, message } = req.body;
