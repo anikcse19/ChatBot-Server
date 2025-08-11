@@ -2,7 +2,8 @@ const express = require("express");
 const http = require("http");
 const socketIo = require("socket.io");
 const cors = require("cors");
-
+const fs = require("fs");
+const path = require("path");
 const app = express();
 const server = http.createServer(app);
 
@@ -18,14 +19,14 @@ const userRoutes = require("./routes/userRoutes");
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: ["http://localhost:5173", "http://localhost:5174","http://127.0.0.1:5500"],
     credentials: true,
   })
 );
 
 // Middleware
 app.use(express.json());
-
+app.use(express.static("public"));
 // API Routes
 app.use("/api/bot", botRoutes);
 app.use("/api/admin", adminRoutes);

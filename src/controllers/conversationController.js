@@ -1,21 +1,23 @@
+// conversationController.js
 const Conversation = require("../models/Conversation");
 const User = require("../models/User");
 const { generateBotReply } = require("../utils/botReply");
-
+const fs = require("fs");
+const path = require("path");
 exports.handleConversation = async (req, res) => {
   const { userId, sessionId, message } = req.body;
-// Get socket.io instance
-// console.log("user id = ",userId)
-const user = await User.findOne({ _id: userId });
-// console.log("userdata= ", user.name);
+  // Get socket.io instance
+  // console.log("user id = ",userId)
+  const user = await User.findOne({ _id: userId });
+  // console.log("userdata= ", user.name);
   // 1. Save user's message to conversation
   let conversation = await Conversation.findOne({ sessionId });
   if (!conversation) {
     conversation = await Conversation.create({
       sessionId,
-      userName:user.name,
+      userName: user.name,
       userId,
-      isAdminOnline:false,
+      isAdminOnline: false,
       messages: [],
     });
   }
@@ -28,16 +30,15 @@ const user = await User.findOne({ _id: userId });
 
   conversation.messages.push(userMessage);
   await conversation.save();
-  const io = req.app.get("io"); 
-  if(io){
-  io.emit("user-message", {
-    sessionId,
-    userId,
-    message: userMessage.text,
-  });
+  const io = req.app.get("io");
+  if (io) {
+    io.emit("user-message", {
+      sessionId,
+      userId,
+      message: userMessage.text,
+    });
   }
   // Emit user's message to admin (if online & listening)
-
 
   // 2. Check if any admin is online
   const activeAdmin = await Conversation.findOne({
@@ -68,6 +69,66 @@ const user = await User.findOne({ _id: userId });
     });
 
     return res.json({ status: "bot_replied", reply: botReply });
+  }
+};
+// image
+exports.handleImageMessage = async (req, res) => {
+  const { userId, sessionId, imageData, fileName } = req.body;
+  console.log("rrr", imageData);
+  try {
+    const matches = imageData.match(/^data:image\/(\w+);base64,(.+)$/);
+    if (!matches) {
+      return res.status(400).json({ error: "Invalid image data" });
+    }
+
+    const ext = matches[1];
+    const base64Data = matches[2];
+    const finalFileName = fileName || `img_${Date.now()}.${ext}`;
+    const filePath = path.join(__dirname, "../public", finalFileName);
+    console.log(`Image saved: ${finalFileName}`);
+    // Save image
+    fs.writeFileSync(filePath, base64Data, "base64");
+    const imageUrl = `${
+      process.env.BASE_URL || "http://localhost:5000"
+    }/uploads/${fileName}`;
+    // Find or create conversation
+    let conversation = await Conversation.findOne({ sessionId });
+    const user = await User.findById(userId);
+    if (!conversation) {
+      conversation = await Conversation.create({
+        sessionId,
+        userName: user?.name || "Unknown User",
+        userId,
+        isAdminOnline: false,
+        messages: [],
+      });
+    }
+
+    const imageMessage = {
+      sender: "user",
+      type: "image",
+      imageUrl: imageUrl,
+      timestamp: new Date(),
+    };
+
+    conversation.messages.push(imageMessage);
+    await conversation.save();
+
+    // Emit to admin
+    const io = req.app.get("io");
+    if (io) {
+      io.to(sessionId).emit("user-message", {
+        sessionId,
+        userId,
+        type: "image",
+        imageUrl: imageUrl,
+      });
+    }
+
+    res.json({ status: "image_sent", imageUrl: imageUrl });
+  } catch (error) {
+    console.error("Error handling image message:", error);
+    res.status(500).json({ error: "Server error" });
   }
 };
 

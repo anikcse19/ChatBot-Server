@@ -1,0 +1,4400 @@
+[
+  {
+    "question": "account create korte chai",
+    "answer": "অ্যাকাউন্ট তৈরি করতে আপনার নাম, মোবাইল নম্বর ও পাসওয়ার্ড দিয়ে রেজিস্ট্রেশন করুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "login korte parchi na",
+    "answer": "ইউজারনেম ও পাসওয়ার্ড ঠিক আছে কিনা চেক করুন। সমস্যা থাকলে কাস্টমার কেয়ারে জানান।",
+    "categoryId": 25,
+    "categoryName": "Login_Problems"
+  },
+  {
+    "question": "password vule gesi",
+    "answer": "‘পাসওয়ার্ড ভুলে গেছেন?’ অপশন ব্যবহার করে নতুন পাসওয়ার্ড সেট করুন।",
+    "categoryId": 18,
+    "categoryName": "Security_Safety"
+  },
+  {
+    "question": "email verify korte chai",
+    "answer": "এই মুহূর্তে ইমেইল ভেরিফিকেশন দরকার নেই । ",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "account delete korte chai",
+    "answer": "অ্যাকাউন্ট ডিলিট করার জন্য সাপোর্ট টিমের সাথে যোগাযোগ করুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "balance koto",
+    "answer": "লগইন করার পর হোমপেইজে আপনার বর্তমান ব্যালেন্স দেখা যাবে।",
+    "categoryId": 2,
+    "categoryName": "Turnover_Balance"
+  },
+  {
+    "question": "withdraw korte parchi na",
+    "answer": "উইথড্র করতে মিনিমাম এমাউন্ট থাকতে হবে এবং সঠিক বিকাশ/নগদ নাম্বার দিতে হবে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "withdraw korte parchi na",
+    "answer": "উইথড্র করতে মিনিমাম এমাউন্ট থাকতে হবে এবং সঠিক নাম্বার দিতে হবে। সেই সাথে টার্নওভার হোল্ড এমাউন্ট উইথড্র করা যাবে না । ",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "withdraw kobe ashbe",
+    "answer": "উইথড্র সাধারণত ৫ থেকে-৩০ মিনিটের মধ্যে সম্পন্ন হয়। দেরি হলে সাপোর্টে জানান।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "bonus taka withdraw korte parbo?",
+    "answer": "বোনাস উইথড্র করতে নির্দিষ্ট টার্নওভার পূরণ করতে হবে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "bonus kibhabe pabo",
+    "answer": "রেজিস্ট্রেশন বোনাস, রেফারেল বোনাস এবং অফারের মাধ্যমে বোনাস পাওয়া যায়।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "offer ase naki",
+    "answer": "বর্তমান অফার দেখতে আমাদের ওয়েবসাইটর প্রোমোশোন মেনু চেক করুন।",
+    "categoryId": 21,
+    "categoryName": "Campaign_Offers"
+  },
+  {
+    "question": "referral bonus kothay",
+    "answer": "আপনার রেফার বোনাস হোমপেইজে বা 'বোনাস হিস্টরি'তে দেখা যাবে।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "bonus code kothay dibo",
+    "answer": "রেজিস্ট্রেশন বা ডিপোজিট করার সময় বোনাস কোড দিতে হবে না,ডিপোজিট করার সময় প্রোমোশোন সিলেক্ট করুন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "bonus pay nai",
+    "answer": "বোনাস পাওয়ার শর্ত পূরণ হয়েছে কিনা চেক করুন। সমস্যা থাকলে সাপোর্টে জানান।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "bet kibhabe korbo",
+    "answer": "ম্যাচ সিলেক্ট করে, এমাউন্ট দিন এবং বেট কনফার্ম করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "bet cancel korte chai",
+    "answer": "একবার বেট কনফার্ম হলে ক্যানসেল করা যায় না।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "bet history kothay",
+    "answer": "‘আমার বেট’ বা ‘হিস্টরি’ সেকশনে বেট হিস্টরি পাওয়া যাবে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "match cancel hoye gele ki hobe",
+    "answer": "ম্যাচ বাতিল হলে বেট এমাউন্ট ফেরত দেওয়া হবে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "odds change hoy ken",
+    "answer": "লাইভ ম্যাচ চলাকালে পরিস্থিতি অনুযায়ী অডস পরিবর্তন হয়।",
+    "categoryId": 22,
+    "categoryName": "Basic_Query"
+  },
+  {
+    "question": "live match koi",
+    "answer": "‘লাইভ’/In play মেনুতে গিয়ে চলমান সব লাইভ ম্যাচ দেখতে পারবেন।",
+    "categoryId": 15,
+    "categoryName": "Sports_Betting"
+  },
+  {
+    "question": "game load hocche na",
+    "answer": "ইন্টারনেট কানেকশন চেক করুন অথবা অন্য ব্রাউজার ব্যবহার করুন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "mobile diye game khelte parbo?",
+    "answer": "জি, আপনি মোবাইল অ্যাপ বা ব্রাউজার দিয়ে গেম খেলতে পারবেন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "casino kothay",
+    "answer": "‘ক্যাসিনো’ মেনুতে ক্লিক করে লাইভ এবং স্লট গেম খেলুন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "game e taka kete ney",
+    "answer": "গেম শুরুর আগে আপনি যে পরিমাণ বেট করেন, সেটাই কেটে নেওয়া হয়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "account block hoye gese",
+    "answer": "অ্যাকাউন্ট সিকিউরিটির কারণে ব্লক হতে পারে। সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "fake result diche",
+    "answer": "আমরা অফিসিয়াল সোর্স থেকে রেজাল্ট নিয়ে থাকি। ভুল মনে হলে প্রমাণ দিন। ",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "account recover korte chai",
+    "answer": "অ্যাকাউন্ট পুনরুদ্ধারের জন্য সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "account block hoye gese",
+    "answer": "অ্যাকাউন্ট সিকিউরিটির কারণে ব্লক হতে পারে। সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "id verify korte chai",
+    "answer": "আপনার জাতীয় পরিচয়পত্র বা ড্রাইভিং লাইসেন্স আপলোড করে ভেরিফাই করুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "multiple account use kora jabe?",
+    "answer": "না, একাধিক অ্যাকাউন্ট ব্যবহার করা আমাদের নিয়মের বিরুদ্ধে।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "kyc complete korte chai",
+    "answer": "KYC কমপ্লিট করতে আপনার পরিচয় ও ঠিকানা ডকুমেন্ট আপলোড করুন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "otp ashe na",
+    "answer": "মোবাইল নাম্বার বা ইমেইল সঠিক আছে কিনা চেক করুন। স্প্যাম ফোল্ডারও চেক করুন। আপনার ফোন নাম্বারও চেক করুন",
+    "categoryId": 25,
+    "categoryName": "Login_Problems"
+  },
+  {
+    "question": "internet kaj kortese na",
+    "answer": "আপনার কানেকশন চেক করুন বা অন্য নেটওয়ার্ক ব্যবহার করুন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "site open hocche na",
+    "answer": "সাইট খোলা না গেলে VPN ব্যবহার করে চেষ্টা করুন।",
+    "categoryId": 27,
+    "categoryName": "Device_Issues"
+  },
+  {
+    "question": "payment confirm hocche na",
+    "answer": "অনুগ্রহ করে অপেক্ষা করুন, আমাদের প্রতিনিধি আপনার পেমেন্ট নিশ্চিত করে কনফার্ম করবে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "payment gateway ki",
+    "answer": "পেমেন্ট গেটওয়ে হলো অনলাইন লেনদেনের মাধ্যম, যেমন বিকাশ, নগদ ইত্যাদি।",
+    "categoryId": 17,
+    "categoryName": "Payment_Methods"
+  },
+  {
+    "question": "support kothay pabo",
+    "answer": "সাপোর্টের জন্য লাইভ চ্যাট, Whatsapp অথবা হেল্পলাইন ব্যবহার করুন।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "live chat kothay",
+    "answer": "ওয়েবসাইট বা অ্যাপে নিচে লাইভ চ্যাট আইকন পাবেন।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "phone number ase?",
+    "answer": "আমাদের অফিশিয়াল কাস্টমার কেয়ার নাম্বার ওয়েবসাইটে দেওয়া আছে।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "complain kortesi keu response dey na",
+    "answer": "আমাদের টিম দ্রুত আপনাকে রেসপন্স করবে। কিছুক্ষণ অপেক্ষা করুন অথবা আবার জানান।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "আমার ব্যালেন্স কত?",
+    "answer": "লগইন করার পর হোমপেইজে আপনার ব্যালেন্স দেখা যাবে।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "ডিপোজিট হচ্ছে না",
+    "answer": "আপনার মোবাইল নাম্বার ও ইন্টারনেট কানেকশন চেক করে আবার চেষ্টা করুন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "উইথড্র করতে পারছি না",
+    "answer": "উইথড্র করতে মিনিমাম টাকা থাকতে হবে এবং বিকাশ/নগদ নাম্বার সঠিক দিতে হবে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "উইথড্র কত সময় লাগে?",
+    "answer": "সাধারণত ৩০ মিনিটের মধ্যে টাকা চলে আসে। দেরি হলে সাপোর্টে জানান।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "বোনাসের টাকা উঠানো যাবে?",
+    "answer": "না, নির্দিষ্ট পরিমাণ বেট করার পরেই বোনাস উইথড্র করা যাবে।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "বোনাস কিভাবে পাবো?",
+    "answer": "নতুন রেজিস্ট্রেশন, রেফারেল অথবা অফারের মাধ্যমে বোনাস পেতে পারেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "বর্তমানে কোনো অফার আছে?",
+    "answer": "আমাদের ওয়েবসাইট বা অ্যাপে চেক করুন সর্বশেষ অফারের জন্য।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "রেফার বোনাস কোথায় পাবো?",
+    "answer": "আপনার রেফার বোনাস 'আমার বোনাস' সেকশনে দেখা যাবে।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "বোনাস পাইনি কেন?",
+    "answer": "বোনাস পাওয়ার শর্ত পূরণ হয়েছে কিনা চেক করুন অথবা সাপোর্টে জানান।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "আমি কিভাবে বেট করবো?",
+    "answer": "ম্যাচ সিলেক্ট করে এমাউন্ট দিন এবং বেট কনফার্ম করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেট ক্যানসেল করতে চাই",
+    "answer": "একবার বেট কনফার্ম হলে তা ক্যানসেল করা যায় না।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেট হিস্টরি কোথায়?",
+    "answer": "‘আমার বেট’ বা ‘হিস্টরি’ অপশনে সব বেট দেখা যাবে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ম্যাচ ক্যানসেল হলে কি টাকা ফেরত পাবো?",
+    "answer": "জি, ম্যাচ বাতিল হলে আপনার বেটের টাকা ফেরত দেওয়া হবে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "অডস পরিবর্তন হয় কেন?",
+    "answer": "লাইভ ম্যাচের পরিস্থিতি অনুযায়ী অডস পরিবর্তন হতে পারে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "লাইভ ম্যাচ কোথায়?",
+    "answer": "‘লাইভ’/In play মেনুতে ক্লিক করে চলমান সব ম্যাচ দেখতে পারবেন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "গেম লোড হচ্ছে না",
+    "answer": "আপনার ইন্টারনেট কানেকশন চেক করে ব্রাউজার রিফ্রেশ করুন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "মোবাইলে গেম খেলতে পারবো?",
+    "answer": "জি, মোবাইল ব্রাউজার অথবা অ্যাপ থেকে গেম খেলা যায়।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "ক্যাসিনো কোথায়?",
+    "answer": "‘ক্যাসিনো’ মেনুতে গিয়ে স্লট অথবা লাইভ গেম খেলুন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "গেমে টাকা কেটে নিচ্ছে কেন?",
+    "answer": "আপনি যেই এমাউন্ট দিয়ে বেট করেন, সেটা শুরুতেই কেটে নেওয়া হয়।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমার অ্যাকাউন্ট ব্লক হয়েছে",
+    "answer": "সিকিউরিটি কারণে অ্যাকাউন্ট ব্লক হতে পারে। দয়া করে সাপোর্টে জানান।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "ভুল রেজাল্ট দিচ্ছে",
+    "answer": "আমরা অফিসিয়াল সোর্স থেকে রেজাল্ট নিয়ে থাকি। সমস্যা থাকলে প্রমাণ দিন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "আইডি ভেরিফাই করতে চাই",
+    "answer": "আপনার জাতীয় পরিচয়পত্র অথবা ড্রাইভিং লাইসেন্স আপলোড করুন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "একাধিক অ্যাকাউন্ট চালানো যাবে?",
+    "answer": "না, একাধিক অ্যাকাউন্ট ব্যবহার করা আমাদের নিয়মের বাইরে।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "KYC কিভাবে করবো?",
+    "answer": "পরিচয় ও ঠিকানা ডকুমেন্ট দিয়ে KYC সম্পন্ন করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "ওটিপি আসছে না",
+    "answer": "আপনার মোবাইল নাম্বার সঠিক আছে কিনা ও স্প্যাম ফোল্ডার চেক করুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "সাইট খুলছে না",
+    "answer": "আপনার কানেকশন চেক করুন অথবা VPN ব্যবহার করে চেষ্টা করুন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "পেমেন্ট কনফার্ম হচ্ছে না",
+    "answer": "গেটওয়ে সমস্যার কারণে দেরি হতে পারে। কিছুক্ষণ পরে আবার চেষ্টা করুন।",
+    "categoryId": 23,
+    "categoryName": "Payment_Issues"
+  },
+  {
+    "question": "সাপোর্ট কোথায় পাবো?",
+    "answer": "লাইভ চ্যাট, WhatsApp অথবা আমাদের হেল্পলাইন ব্যবহার করে সাপোর্ট পেতে পারেন।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "লাইভ চ্যাট কোথায়?",
+    "answer": "ওয়েবসাইট বা অ্যাপের নিচে লাইভ চ্যাট আইকন দেখতে পাবেন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "আপনাদের ফোন নাম্বার কি?",
+    "answer": "আমাদের অফিসিয়াল নাম্বার ওয়েবসাইটের কনট্যাক্ট পেইজে দেওয়া আছে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "অভিযোগ করেছি কিন্তু কেউ রিপ্লাই দেয় না",
+    "answer": "দয়া করে কিছুক্ষণ অপেক্ষা করুন অথবা আবার রিপ্লাই দিন। আমাদের টিম দ্রুত রিপ্লাই দিবে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "লগইন করতে পারছি না, wrong otp আসে",
+    "answer": "OTP না আসলে মোবাইল নম্বর চেক করুন আর স্প্যাম ফোল্ডার দেখুন।",
+    "categoryId": 11,
+    "categoryName": "Account_Issues"
+  },
+  {
+    "question": "password ভুলে গেছি, reset করতে চাই",
+    "answer": "‘পাসওয়ার্ড ভুলে গেছেন?’ ক্লিক করে OTP/ইমেইল দিয়ে নতুন পাসওয়ার্ড দিন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "deposit dibo kivabe bkash diye?",
+    "answer": "ডিপোজিট পেজে bkash সিলেক্ট করে নম্বর ও এমাউন্ট দিন, তারপর OTP দিয়ে কনফার্ম করুন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "withdraw করতে পারছি না, button disable",
+    "answer": "মিনিমাম এমাউন্ট ও verified বিকাশ/নগদ নাম্বার চেক করুন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "withdraw kobe ashbe, দুই ঘণ্টা হয়ে গেলো",
+    "answer": "সাধারণত ৩০ মিনিট-২ ঘণ্টায় চলে আসে; বেশি দেরি হলে সাপোর্টে জানান।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "live match bet দিলেও movement দেখায় না",
+    "answer": "লাইভ অডস আপডেটে দেরি হতে পারে, রিফ্রেশ দিন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "casino game crash করছে কেন?",
+    "answer": "নেটওয়ার্ক সমস্যা হলে গেম crash হতে পারে, কানেকশন/ব্রাউজার চেক করুন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "lottery result কখন প্রকাশ পাবে?",
+    "answer": "রেজাল্ট ড্রয়ের নির্দিষ্ট সময়ের পর ওয়েবসাইটে প্রকাশিত হয়।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "bonus code দিয়ে দিয়েছিলাম, add হয় নি",
+    "answer": "বোনাস কোড সঠিকভাবে কপি করেছেন কিনা নিশ্চিত করুন, সিস্টেমে ডিলে থাকতে পারে।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "refer করলে বড় বোনাস দেয় কি?",
+    "answer": "যতক্ষণ রেফার করা ইউজার ডিপোজিট ও বেট করে, আপনি বোনাস পাবেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "site open হচ্ছে না VPN ছাড়া",
+    "answer": "বাংলাদেশে সাইট ব্লক থাকতে পারে—VPN বা proxy দিয়ে চেষ্টা করুন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "payment confirm হচ্ছে না, error দেখাচ্ছে",
+    "answer": "পেমেন্ট গেটওয়ে সাময়িক সমস্যায় থাকতে পারে; কিছুক্ষণ পরে আবার চেষ্টা করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "account block হয়ে গেছে without reason",
+    "answer": "সিকিউরিটি কারণে ব্লক হতে পারে, সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "match fix হয়েছে, কিভাবে অভিযোগ করবো?",
+    "answer": "যদি প্রমাণ থাকে, support team-এ জমা দিন, তারা তদন্ত করে ব্যবস্থা নেবে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "support number দিন, কল করতে চাই",
+    "answer": "আমাদের অফিসিয়াল ফোন নাম্বার ওয়েবসাইটের Contact পেইজে পাওয়া যাবে।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "live chat connect হচ্ছে না",
+    "answer": "লাইভ চ্যাট না হলে Whatsapp বা Email-এ যোগাযোগ করুন।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "online betting legal kina BD?",
+    "answer": "বাংলাদেশে অনলাইন বেটিং নিষিদ্ধ হিসেবে বিবেচিত হয় Public Gambling Act, 1867 অনুযায়ী।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ads facebook‑e দিলে এখন access বন্ধ",
+    "answer": "HC অনলাইনে বেটিং বিজ্ঞাপন বন্ধের নির্দেশ দিয়েছে",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "betting addiction হচ্ছে, করবো কি?",
+    "answer": "Gamblers Anonymous বা উপযুক্ত কাউন্সেলিং নিন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "টাকা হারাতে হারাতে বাড়ি বিক্রি করতে হচ্ছে",
+    "answer": "গ্যাম্বলিং সীমাবদ্ধভাবে করুন; ক্ষতি এড়াতে বাজির সীমা রাখুন।",
+    "categoryId": 16,
+    "categoryName": "Time_Limits"
+  },
+  {
+    "question": "withdraw request করলাম, কিন্তু block",
+    "answer": "বহু বেতার ইউজার একাউন্টে সন্দেহ হলে সিকিউরিটি চেকের জন্য উইথড্র ব্যর্থ হতে পারে—সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "deposit হবার পর balance বাড়ছে না",
+    "answer": "ডিপোজিট কনফার্ম হতে কিছুক্ষণ সময় লাগে, না হলে সাপোর্টে জানাবেন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "live streaming দেখতে পারছি না",
+    "answer": "লাইভ স্ট্রিমিং দেখতে ভালো ইন্টারনেট ও আধুনিক ব্রাউজার দরকার।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "game lagging করছে মোবাইলে",
+    "answer": "RAM/CPU কম হলে গেম ল্যাগ করতে পারে; অ্যাপ/ব্রাউজার আপডেট করুন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "casino withdrawal limit কত?",
+    "answer": "প্রত্যেক সাইটে আলাদা, সাইটের নিয়মে দেয়া থাকে—হেল্প পেইজ চেক করুন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "bazar hoye যায় না balance",
+    "answer": "লাইভ বেট হারের সময় পরিবর্তন হতে পারে, তাই এমাউন্ট কানেক্ট হয় না।",
+    "categoryId": 2,
+    "categoryName": "Turnover_Balance"
+  },
+  {
+    "question": "match cancel হলে কি refund হয়?",
+    "answer": "জি, বাতিল হলে টাকা স্বয়ংক্রিয়ভাবে ফেরত দেওয়া হয়।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "odds change হল কিঙ্কার",
+    "answer": "লাইভ ম্যাচ অনুযায়ী অডস কম-বেশি হতে পারে, এটা স্বাভাবিক।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "support reply দিচ্ছে না",
+    "answer": "প্রতিম ২৪ ঘণ্টার মধ্যে রিপ্লাই না পেলে আবার ফলো-আপ করুন বা অন্য মাধ্যমে যোগাযোগ করুন।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "account verify করতে কি লাগে?",
+    "answer": "জাতীয় পরিচয়পত্র/লাইসেন্সের ছবি আপলোড করে KYC সম্পন্ন করুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "multiple account use করলে কি হয়?",
+    "answer": "নিয়ম অনুযায়ী একাধিক অ্যাকাউন্ট ব্যবহারে নিষেধ, আইডি ব্লক হতে পারে।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "payment gateway কি?",
+    "answer": "পেমেন্ট গেটওয়ে হলো অনলাইন লেনদেনের মাধ্যম, যেমন bkash, নগদ, বিকাশ ইত্যাদি।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "live casino কি?",
+    "answer": "লাইভ ক্যাসিনো হলো রিয়েল টাইমে ডিলারদের সাথে অনলাইন গেম খেলার সুযোগ।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "sports betting কি?",
+    "answer": "স্পোর্টস বেটিং হলো খেলাধুলার ইভেন্টে বাজি ধরা, যেমন ক্রিকেট, ফুটবল ইত্যাদি।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "lottery ticket কিভাবে কিনবো?",
+    "answer": "অনলাইন প্ল্যাটফর্মে বা অনুমোদিত দোকানে লটারির টিকেট কিনতে পারেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "bonus code কোথায় পাবো?",
+    "answer": "বিভিন্ন ক্যাম্পেইন বা প্রমোশনাল ইভেন্টে বোনাস কোড পাওয়া যায়।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "referral bonus কিভাবে পাবো?",
+    "answer": "আপনার রেফার করা বন্ধুর ডিপোজিট ও বেটিংয়ের উপর নির্ভর করে বোনাস পাওয়া যায়।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "site slow হচ্ছে কেন?",
+    "answer": "সার্ভার সমস্যা, ইন্টারনেট কানেকশন বা ব্রাউজার ইস্যুর কারণে সাইট স্লো হতে পারে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "game rules কোথায় পাবো?",
+    "answer": "প্রত্যেক গেমের নিচে বা হেল্প সেকশনে গেম রুলস পাওয়া যায়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "account lock হলে কি করবো?",
+    "answer": "সাপোর্ট টিমের সাথে যোগাযোগ করে আপনার সমস্যার সমাধান নিন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "bet history কোথায় দেখবো?",
+    "answer": "আপনার একাউন্টের 'Bet History' সেকশনে পূর্ববর্তী বেট দেখা যায়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "live dealer কে?",
+    "answer": "লাইভ ডিলার হলো রিয়েল টাইমে ক্যামেরার মাধ্যমে গেম পরিচালনা করা ব্যক্তি।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "mobile app আছে কি?",
+    "answer": "হ্যাঁ, বেশ কিছু সাইটের নিজস্ব মোবাইল অ্যাপ রয়েছে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "app install করতে কি লাগে?",
+    "answer": "অ্যাপ ইন্সটল করতে ইন্টারনেট কানেকশন ও পর্যাপ্ত স্টোরেজ দরকার।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "app crash করলে কি করবো?",
+    "answer": "অ্যাপ রিফ্রেশ করুন, ক্যাশ ক্লিয়ার করুন বা পুনরায় ইন্সটল করুন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "payment failed হলে কি করবো?",
+    "answer": "অনুগ্রহ করে আমাদের সাপোর্ট টিমের সাথে যোগাযোগ করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "withdrawal limit কত?",
+    "answer": "প্রতিদিন ৫০,০০০, প্রতিবারে সর্বোচ্চ ২৫,০০০।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "payment confirmation কিভাবে পাবো?",
+    "answer": "পেমেন্ট সফল হলে আপনার একাউন্টে টাকা জমা হয়ে যাবে। ",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "live match কোথায় দেখবো?",
+    "answer": "‘লাইভ’/In play মেনুতে ক্লিক করে চলমান সব ম্যাচ দেখতে পারবেন।",
+    "categoryId": 15,
+    "categoryName": "Sports_Betting"
+  },
+  {
+    "question": "match fix হয়েছে কি?",
+    "answer": "ম্যাচ ফিক্সিং সন্দেহ হলে সাপোর্ট টিমে রিপোর্ট করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "betting limit কত?",
+    "answer": "প্রত্যেক সাইটের আলাদা বেটিং লিমিট রয়েছে, যা সাইটের নিয়মে উল্লেখ থাকে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "referral link কোথায় পাবো?",
+    "answer": "আপনার একাউন্টের 'Referral' সেকশনে রেফারেল লিংক পাওয়া যায়।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "account deactivate করতে চাই",
+    "answer": "সাপোর্ট টিমে যোগাযোগ করে আপনার একাউন্ট ডিএক্টিভেট করতে পারেন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "game rules কোথায় পাবো?",
+    "answer": "প্রত্যেক গেমের নিচে বা হেল্প সেকশনে গেম রুলস পাওয়া যায়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "কিভাবে খেলায় টাকা জিতবো?",
+    "answer": "সঠিক স্ট্র্যাটেজি ও বাজি বিশ্লেষণ করে ধৈর্য ধরে খেলুন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "লাইভ বেটের জন্য কোন স্পোর্টস ভালো?",
+    "answer": "ক্রিকেট, ফুটবল এবং টেনিস লাইভ বেটিংয়ের জন্য জনপ্রিয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং লাইসেন্স কি?",
+    "answer": "বেটিং সাইটের বৈধতা নিশ্চিত করতে সরকার কর্তৃক দেয়া অনুমোদন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কিভাবে আমার বেট ক্যানসেল করতে পারি?",
+    "answer": "সাধারণত বেট দেওয়ার পর ক্যানসেল সম্ভব নয়, তবে সাইটের নিয়ম দেখুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিংয়ের জন্য আমার ব্যাংক অ্যাকাউন্ট ভেরিফাই করতে হবে?",
+    "answer": "হ্যাঁ, সুরক্ষার জন্য কেওয়াইসি (KYC) প্রক্রিয়া সম্পন্ন করতে হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ক্যাসিনোতে কোন গেম বেশি লাভজনক?",
+    "answer": "ব্ল্যাকজ্যাক ও রুলেট গেমে কিছু কৌশল ব্যবহার করে লাভজনক হতে পারেন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "আমি কি বিটকয়েন দিয়ে বেট করতে পারি?",
+    "answer": "কিছু সাইট বিটকয়েন এবং অন্যান্য ক্রিপ্টোকারেন্সি গ্রহণ করে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "লাইভ ক্যাসিনো গেমের ডিলার কি সবাই সত্যিকারের মানুষ?",
+    "answer": "হ্যাঁ, লাইভ ক্যাসিনোতে বাস্তব ডিলাররা ভিডিও স্ট্রিমিং এর মাধ্যমে গেম পরিচালনা করে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "কিভাবে আমি আমার বেটিং হিস্টোরি ডাউনলোড করব?",
+    "answer": "আপনার প্রোফাইলে গিয়ে ‘Bet History’ থেকে ডাউনলোড অপশন পাবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ওয়েবসাইটে লগইন করার সময় ‘Account suspended’ দেখাচ্ছে কেন?",
+    "answer": "নিরাপত্তা কারণে বা শর্ত লঙ্ঘনের জন্য একাউন্ট সাসপেন্ড হতে পারে।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "আমি কি নিজের অ্যাকাউন্ট বন্ধ করতে পারি?",
+    "answer": "হ্যাঁ, কাস্টমার সার্ভিসে যোগাযোগ করলে অ্যাকাউন্ট বন্ধ করা যাবে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "ক্যাসিনো গেমে জেতার কোন গ্যারান্টি আছে?",
+    "answer": "না, সব গেমেই ঝুঁকি থাকে, সম্পূর্ণ ভাগ্যের উপর নির্ভর করে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "অনলাইন বেটিং-এর জন্য আমার মোবাইলে কোন অ্যাপ ব্যবহার করব?",
+    "answer": "সাইটের অফিসিয়াল অ্যাপ অথবা ওয়েবসাইট থেকে বেট করতে পারেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইটে কিভাবে নিরাপদ থাকবো?",
+    "answer": "শক্তিশালী পাসওয়ার্ড ব্যবহার করুন, ফিশিং থেকে সাবধান থাকুন এবং ভেরিফাইড সাইটে খেলুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি বিদেশি কারেন্সিতে বেট করতে পারি?",
+    "answer": "কিছু সাইট USD, EUR ইত্যাদি কারেন্সিতেও বেটিং সাপোর্ট করে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং লস হলে আমি কি টাকা ফেরত পাবো?",
+    "answer": "না, বেটিং হলো ঝুঁকি সহকারে খেলা, লস হলে টাকা ফেরত পাওয়া যায় না।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "লাইভ বেটিং এর সময় কতো সময় দেয়া হয় সিদ্ধান্ত নেওয়ার জন্য?",
+    "answer": "প্রতিটি সাইটের নিয়ম ভিন্ন, সাধারণত কয়েক সেকেন্ড থেকে এক মিনিট পর্যন্ত সময় দেওয়া হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বোনাস ও ফ্রি বেট কি এক ধরনের?",
+    "answer": "না, বোনাস সাধারণত টাকা, আর ফ্রি বেট হলো খেলার জন্য দেয়া সুযোগ।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি নিজের পয়েন্ট অন্য কারো সাথে শেয়ার করতে পারি?",
+    "answer": "না, একাউন্ট সিকিউরিটির জন্য পয়েন্ট শেয়ার করা নিষেধ।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "ক্যাসিনো গেমে চিটিং হলে কি করব?",
+    "answer": "সাপোর্ট টিমে অবিলম্বে রিপোর্ট করুন, তারা ব্যবস্থা নেবে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "বেটিং সাইটে কিভাবে ডিপোজিট করব?",
+    "answer": "Bkash, Nagad, Rocket অথবা ব্যাংক ট্রান্সফার ব্যবহার করে ডিপোজিট করতে পারেন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "আমি কি মোবাইল দিয়ে বেট করতে পারি?",
+    "answer": "হ্যাঁ, বেশিরভাগ সাইট মোবাইল ব্রাউজার এবং অ্যাপ সাপোর্ট করে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইটের কাস্টমার সার্ভিসের সময় কি?",
+    "answer": "সাধারণত ২৪ ঘণ্টা সেবা পাওয়া যায়, তবে ভিন্ন হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "লাইভ ম্যাচ কোথায় দেখতে পারি?",
+    "answer": "অনেক সাইট লাইভ স্ট্রিমিং সেবা দেয়, অথবা ইউটিউব ও টিভিতে দেখতে পারেন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "বেটিং সাইট থেকে টাকা উত্তোলনের জন্য কি কাগজপত্র লাগবে?",
+    "answer": "ব্যক্তিগত পরিচয়পত্র (NID, Passport) ও ব্যাংক তথ্য প্রয়োজন হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি বিনা টাকা দিয়ে বেট শুরু করতে পারি?",
+    "answer": "কিছু সাইট নতুন ইউজারের জন্য ফ্রি বেট বা বোনাস অফার করে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ক্যাসিনো গেমে কিভাবে বাজি ধরবো?",
+    "answer": "গেমের রুলস বুঝে সেটি অনুযায়ী বাজি ধরতে হয়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "সাইট হ্যাক হলে কি আমার টাকা সুরক্ষিত থাকবে?",
+    "answer": "ভালো সিকিউরিটি ব্যবস্থা থাকলে টাকা সুরক্ষিত থাকে, তবে সাবধান থাকা ভালো।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "লাইভ বেটিংয়ে শেষ মুহূর্তে অডস পরিবর্তন কেন হয়?",
+    "answer": "লাইভ ম্যাচ অনুযায়ী অডস আপডেট হয়, যা খেলা চলাকালে পরিবর্তিত হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইটে কিভাবে নতুন অফার পাব?",
+    "answer": "নিয়মিত ওয়েবসাইট চেক করুন অথবা নিউজলেটার সাবস্ক্রাইব করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি একাধিক সাইটে একই সময় বেট করতে পারি?",
+    "answer": "হ্যাঁ, কিন্তু প্রতিটি সাইটের নিয়ম আলাদা হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "লাইভ ক্যাসিনোতে বাজির সীমা কত?",
+    "answer": "বাজির সীমা গেম ও সাইটের উপর নির্ভর করে ভিন্ন হতে পারে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "আমার বেট কিভাবে ভেরিফাই করবো?",
+    "answer": "আপনার বেট হিস্টোরি এবং টিকিট নং দেখে নিশ্চিত করতে পারেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কিভাবে কাস্টমার সার্ভিসের সাথে চ্যাট করবো?",
+    "answer": "সাইটে থাকা লাইভ চ্যাট অপশন ব্যবহার করুন অথবা WhatsApp/Email ব্যবহার করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "ক্যাসিনো গেমের টাকা কিভাবে জমা করবো?",
+    "answer": "বিকাশ, নগদ, রকেট বা ব্যাংক ট্রান্সফার ব্যবহার করতে পারেন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "সাইট ধীরগতি বা ক্র্যাশ হলে কি করবো?",
+    "answer": "ইন্টারনেট চেক করুন, ব্রাউজার আপডেট করুন বা সাপোর্টে জানান।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমি কি আমার অ্যাকাউন্ট ডিলিট করতে পারি?",
+    "answer": "সাপোর্টে যোগাযোগ করে অ্যাকাউন্ট ডিলিট বা ডিএক্টিভেট করতে পারবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমি কিভাবে নিরাপদে খেলতে পারি?",
+    "answer": "শুধুমাত্র লাইসেন্সপ্রাপ্ত ও বিশ্বাসযোগ্য সাইটে খেলুন এবং বাজির সীমা নির্ধারণ করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "ক্যাসিনো গেমের জ্যাকপট কি?",
+    "answer": "এক ধরনের বড় পুরস্কার যা নির্দিষ্ট শর্ত পূরণ করলে পাওয়া যায়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "লাইভ ক্যাসিনো গেমের বেট সময়সীমা কত?",
+    "answer": "সাধারণত প্রতি রাউন্ডে ৩০ সেকেন্ড থেকে ১ মিনিট সময় দেওয়া হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইটের লগইন পেজ সিকিউরড কিনা কিভাবে বুঝবো?",
+    "answer": "URL এ ‘https’ থাকা এবং প্যাডলক আইকন থাকলে সিকিউরড।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং করার আগে কি নিয়মগুলো পড়া উচিত?",
+    "answer": "অবশ্যই পড়া উচিত, যাতে ভবিষ্যতে সমস্যা এড়ানো যায়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটে কতক্ষণ ধরে লগইন থাকা যাবে?",
+    "answer": "সাধারণত সেশন টাইম আউট ১৫-৩০ মিনিটের মধ্যে হয়।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "আমি কি সাইট থেকে স্পন্সরশিপ পেতে পারি?",
+    "answer": "কিছু সাইট বিভিন্ন প্রোগ্রামের মাধ্যমে স্পন্সরশিপ দেয়।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং কি ধরণের ঝুঁকি আছে?",
+    "answer": "অর্থ হারানোর ঝুঁকি সবসময় থাকে, তাই সাবধানে খেলুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি নিয়মিত বেট করলে বেশি সুযোগ পাব?",
+    "answer": "কিছু সাইট নিয়মিত খেলোয়াড়দের জন্য বিশেষ অফার দেয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটে কিভাবে ফিডব্যাক দিতে পারি?",
+    "answer": "সাইটের কন্টাক্ট ফর্ম বা কাস্টমার সার্ভিসে ফিডব্যাক পাঠাতে পারেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটের এপিআই কি?",
+    "answer": "এপিআই দিয়ে ডেভেলপাররা বিভিন্ন ফাংশন সাইটের সাথে যুক্ত করতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি অন্যের একাউন্ট ব্যবহার করতে পারি?",
+    "answer": "না, এটি বেআইনি এবং একাউন্ট বন্ধ হওয়ার কারণ।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমি যদি ভুলবশত বেশি টাকা জমা দিই, কি করব?",
+    "answer": "সাপোর্টে যোগাযোগ করুন, তারা সাহায্য করবে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "সাপোর্টে যোগাযোগের জন্য কি সময় লাগবে?",
+    "answer": "সাধারণত ২৪ ঘণ্টার মধ্যে উত্তর দেওয়া হয়।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "বেটিংয়ের জন্য কি বয়স সীমা আছে?",
+    "answer": "হ্যাঁ, বাংলাদেশে সাধারণত ১৮+ বছর বয়সী হলে খেলতে পারবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেট কবে ক্লিয়ার হয়?",
+    "answer": "সাধারণত ম্যাচ শেষ হওয়ার পর ৫-১০ মিনিটের মধ্যে বেট ক্লিয়ার হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কিভাবে নিশ্চিত হব যে বেট প্লেস হয়েছে?",
+    "answer": "বেট প্লেস করার পর কনফার্মেশন মেসেজ বা টিকিট নম্বর দেখুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইটে লগআউট কি সব সময় করতে হবে?",
+    "answer": "সুরক্ষার জন্য প্রত্যেকবার সেশন শেষে লগআউট করা ভালো।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কিভাবে আমার প্রোফাইল এডিট করব?",
+    "answer": "প্রোফাইল পেজে গিয়ে নাম, ইমেইল, ফোন নম্বর পরিবর্তন করতে পারবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইট থেকে স্প্যাম মেসেজ বন্ধ করতে চাই",
+    "answer": "সেটিংসে গিয়ে নোটিফিকেশন অপশন থেকে বন্ধ করতে পারেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ডিপোজিট করার পর টাকা একাউন্টে আসে নি, কি করব?",
+    "answer": "সাপোর্ট টিমকে ডিপোজিট রিসিপ্ট দিয়ে যোগাযোগ করুন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "লাইভ বেটিং কখন শুরু হয়?",
+    "answer": "লাইভ বেটিং সাধারণত ম্যাচ শুরু হওয়ার সাথে সাথেই চালু হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি একসাথে একাধিক ম্যাচে বেট করতে পারি?",
+    "answer": "হ্যাঁ, আপনি একাধিক ম্যাচ বা ইভেন্টে একই সময়ে বেট করতে পারেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইট কেমন নিরাপদ?",
+    "answer": "ভালো সিকিউরিটি সিস্টেম, এনক্রিপশন এবং লাইসেন্স থাকলে সাইট নিরাপদ।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "মোবাইলে সাইট খোলার সময় কনফিগারেশন এরর আসে",
+    "answer": "ব্রাউজার ক্যাশ ক্লিয়ার করুন, বা অন্য ব্রাউজার ব্যবহার করুন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "ক্যাসিনো গেমে আমার টাকা হারিয়ে গেলে কি করব?",
+    "answer": "গেমিং ঝুঁকিপূর্ণ, হারানো টাকার জন্য সাইট দায়ী নয়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "বেটিং সাইটের কোন পেমেন্ট মেথডগুলো সেরা?",
+    "answer": "Bkash, Nagad, Rocket এবং ব্যাংক ট্রান্সফার বেশি ব্যবহৃত।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি বেটিংয়ের জন্য ব্যাংক একাউন্ট খুলতে পারি?",
+    "answer": "হ্যাঁ, অনলাইন পেমেন্টের জন্য ব্যাংক একাউন্ট থাকা জরুরি।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটের সাপোর্ট কি বাংলায় কথা বলে?",
+    "answer": "অধিকাংশ সাপোর্ট বাংলা ও ইংরেজি দুই ভাষায় সেবা দেয়।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "সাইটে কিভাবে নতুন অ্যাকাউন্ট খুলব?",
+    "answer": "রেজিস্ট্রেশন পেজ থেকে প্রয়োজনীয় তথ্য দিয়ে অ্যাকাউন্ট খুলুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিংয়ে কতো টাকা লগানো উচিত?",
+    "answer": "নিজের বাজেটের মধ্যে থেকে ঝুঁকি নিয়ে বাজি ধরুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "লাইভ ক্যাসিনো গেম কখন উপলব্ধ?",
+    "answer": "সাধারণত ২৪/৭ লাইভ ক্যাসিনো খেলা যায়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "বেটিং সাইট বন্ধ থাকলে কি করব?",
+    "answer": "ইন্টারনেট কানেকশন চেক করুন, বা সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "অনলাইনে বেটিং করলে আমার আইপি লুকানো উচিত?",
+    "answer": "কিছু দেশ আইনি কারণে VPN বা Proxy ব্যবহারের পরামর্শ দেয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটের কুইক ডিপোজিট কি?",
+    "answer": "কুইক ডিপোজিট হলো দ্রুত টাকা জমার সুবিধা।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "বেটিং সাইটে কিভাবে বোনাস রিডিম করব?",
+    "answer": "প্রোমো কোড ব্যবহার করে বোনাস নিতে পারেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটের ইউজার ইন্টারফেস কি সহজ?",
+    "answer": "অধিকাংশ সাইট ইউজার ফ্রেন্ডলি ডিজাইন করে থাকে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমি কি একাউন্ট ডিলিট করার পর আবার খুলতে পারি?",
+    "answer": "সাধারণত ডিলিট করলে পুনরায় খুলতে হয় নতুনভাবে রেজিস্ট্রেশন করতে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটের ট্রান্সফার ফি কত?",
+    "answer": "কিছু সাইট ট্রান্সফার ফ্রি দেয়, আবার কিছু ক্ষেত্রে চার্জ থাকতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি সাইটে অজানা কেউকে বেট করতে দিচ্ছি?",
+    "answer": "না, আপনার অ্যাকাউন্টে শুধু আপনি নিয়ন্ত্রণ রাখবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইটে স্ক্রিনশট নেওয়া কি নিরাপদ?",
+    "answer": "ব্যক্তিগত তথ্য ছাড়া সাধারণত সমস্যা নেই।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ক্যাসিনো গেমে কত দ্রুত টাকা জেতা যায়?",
+    "answer": "গেমের ভাগ্য ও কৌশলের ওপর নির্ভর করে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "কিভাবে বেটিংয়ের সময় ভুল এড়াব?",
+    "answer": "বিনয়ী মনোভাব নিয়ে খেলা, নিয়ম বুঝে বাজি ধরুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কোন সাইটগুলো বাংলাদেশে বেশি জনপ্রিয়?",
+    "answer": "ফলাফল ভিত্তিক জনপ্রিয় সাইট যেমন Bet365, 1xBet প্রভৃতি।",
+    "categoryId": 20,
+    "categoryName": "Legal_Policy"
+  },
+  {
+    "question": "কিভাবে ওয়েবসাইটে নতুন গেম খুঁজবো?",
+    "answer": "হোমপেজে ‘নতুন গেম’ বা ‘নতুন’ ক্যাটাগরি দেখুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটের কাস্টমার সাপোর্টে ফোন করলে কি দ্রুত সাড়া পাওয়া যায়?",
+    "answer": "হ্যাঁ, বেশিরভাগ সাইটে ফোন সাপোর্ট দ্রুত সাড়া দেয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি লাইভ ক্যাসিনোতে ভিডিও রেকর্ড করতে পারি?",
+    "answer": "সাধারণত প্রাইভেসি রুলস অনুযায়ী নিষেধ।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "বেটিং সাইটে পাসওয়ার্ড ভুলে গেলে কি করব?",
+    "answer": "‘পাসওয়ার্ড রিসেট’ অপশন ব্যবহার করে পুনরায় সেট করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইট থেকে কেন মাঝে মাঝে লগআউট হয়?",
+    "answer": "সিকিউরিটি বা সেশন টাইমআউটের জন্য লগআউট হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ক্যাসিনো গেমে জেতার পর টাকা কিভাবে উত্তোলন করবো?",
+    "answer": "উত্তোলনের জন্য উইথড্রয়াল পেজ থেকে পেমেন্ট মেথড নির্বাচন করুন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "বেটিং সাইটের কাস্টমার সার্ভিসের কাজ কি?",
+    "answer": "ব্যবহারকারীদের প্রশ্ন ও সমস্যার সমাধান দেওয়া।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটের রেজিস্ট্রেশন ফি কত?",
+    "answer": "অধিকাংশ সাইটে রেজিস্ট্রেশন ফ্রি।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "সাইটে কিভাবে নতুন প্রমোশন দেখতে পারি?",
+    "answer": "ওয়েবসাইটের ‘অফার’ বা ‘প্রমোশন’ সেকশন দেখুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমি কি বেটিংয়ের জন্য বিদেশি সাইট ব্যবহার করতে পারি?",
+    "answer": "হ্যাঁ, তবে সাবধানে এবং বৈধ সাইট ব্যবহার করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইট বন্ধ থাকলে আমি কি করব?",
+    "answer": "সাপোর্টে জানাতে পারেন অথবা কিছুক্ষণ অপেক্ষা করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "ক্যাসিনো গেমে কিভাবে বাজি কমাব?",
+    "answer": "স্মার্ট বাজি ও বাজির সীমা নির্ধারণ করে বাজি কমাতে পারেন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "কীভাবে আমি বেটিং সাইটে নিরাপদ থাকতে পারি?",
+    "answer": "আপনার একাউন্ট তথ্য গোপন রাখুন এবং পাসওয়ার্ড নিয়মিত পরিবর্তন করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইটের বিভিন্ন বোনাসের শর্ত কী?",
+    "answer": "প্রত্যেক বোনাসের আলাদা শর্ত থাকে, সেগুলো খুঁটিয়ে পড়ুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ভাই, আমার বেট কই?",
+    "answer": "আপনার বেট হিস্ট্রি ‘মাই বেটস’ সেকশনে দেখতে পাবেন ভাই।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বোনাস টাকা কই জমা হয়?",
+    "answer": "অফিশিয়াল বোনাস টাকা আপনার ব্যালেন্সে অটোমেটিক যোগ হবে।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "আমার উইথড্রয়াল দেরি করছে কেমন করে?",
+    "answer": "ভাই, দুই ঘণ্টার বেশি দেরি হলে সাপোর্টে মেসেজ দিন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "ওরা আমাকে একাউন্ট ব্লক করে দিলো, কি করবো?",
+    "answer": "সাপোর্টে ফোন দেন বা চ্যাট করে কারণ জেনে নিন ভাই।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "কীভাবে আমার নাম্বার ভেরিফাই করব?",
+    "answer": "আপনার মোবাইল থেকে OTP দিয়ে সহজেই ভেরিফাই করতে পারবেন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "ওয়েবসাইট ঢুকতে পারছি না, VPN লাগবে?",
+    "answer": "বাংলাদেশে অনেক সময় সাইট ব্লক থাকে, VPN চালু করে দেখুন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "আমার লগইন পাসওয়ার্ড ভুলে গেছি, রিসেট করবো কিভাবে?",
+    "answer": "লগইন পেজে ‘পাসওয়ার্ড ভুলে গেছেন?’ ক্লিক করুন, এরপর নির্দেশনা অনুসরণ করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেট করার সময় অডস পরিবর্তন কেন হয়?",
+    "answer": "লাইভ ম্যাচ চলাকালে অডস ওঠা-নামা স্বাভাবিক ব্যাপার ভাই।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কিভাবে টাকা জমা দিবো? বিকাশ চালু আছে?",
+    "answer": "হ্যাঁ ভাই, বিকাশ, নগদ, রকেট সব পেমেন্ট অপশন আছে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "লাইভ ক্যাসিনো গেম গুলো আসল, না মডেল?",
+    "answer": "লাইভ ক্যাসিনোতে আসল ডিলার থাকে, লাইভ ভিডিও স্ট্রিমিং হয়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "কিভাবে সাপোর্টের সাথে কথা বলব?",
+    "answer": "সাইটে লাইভ চ্যাট অথবা WhatsApp দিয়ে কথা বলতে পারবেন।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "আমি নতুন, কি গেম খেলবো?",
+    "answer": "ভাই, ক্রিকেট বেটিং দিয়ে শুরু করতে পারেন, সহজ এবং মজা।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমি কি একসাথে দুই বা তিনটা বেট করতে পারি?",
+    "answer": "হ্যাঁ ভাই, একাধিক বেট প্লেস করতে পারবেন, কিন্তু বাজেট খেয়াল রাখবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং করলে কত টাকা জিততে পারি?",
+    "answer": "টাইম টেকার ভাই, ভাগ্য এবং স্ট্র্যাটেজির ওপর নির্ভর করে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমার একাউন্টে সন্দেহজনক activity দেখছি, করণীয়?",
+    "answer": "ফোরন সাপোর্টে জানিয়ে একাউন্ট সুরক্ষিত করুন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "বেটিং সাইটে কাস্টমার সার্ভিস বাংলা ভাষায় আছে?",
+    "answer": "অবশ্যই ভাই, বাংলা ও ইংরেজি দুই ভাষায় সেবা পাওয়া যায়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ওয়েবসাইট ধীর, মোবাইলে ভালো কাজ করছে না কেন?",
+    "answer": "মোবাইল ইন্টারনেট বা ব্রাউজার আপডেট চেক করুন ভাই।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমি যদি ভুলে বেশি টাকা দিই, কি করবো?",
+    "answer": "অবিলম্বে সাপোর্টে মেসেজ দিন, তারা সাহায্য করবে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমার বেট reject হলো কেন?",
+    "answer": "বেট সময় শেষ হয়ে গেলে বা ম্যাচ বাতিল হলে বেট reject হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কিভাবে আমার বেটিং হিস্ট্রি দেখতে পারি?",
+    "answer": "‘মাই বেটস’ পেইজে গিয়ে সব আগের বেট দেখতে পারবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ক্যাসিনো গেমে কিভাবে বাজি কমাব?",
+    "answer": "স্ট্র্যাটেজি মেনে বাজির পরিমাণ ঠিক রাখলেই লাভ হয়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "কিভাবে বেটিং সাইটে নিরাপদ থাকবো?",
+    "answer": "পাসওয়ার্ড শেয়ার করবেন না, অফিশিয়াল সাইট থেকেই খেলবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি বন্ধুদের রেফার করতে পারি?",
+    "answer": "হ্যাঁ ভাই, রেফার করে বোনাসও পেতে পারেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "বোনাস টাকা কিভাবে কাজে লাগাবো?",
+    "answer": "বোনাস দিয়ে গেম বা বেটিং করতে পারবেন, নিয়ম দেখে ব্যবহার করুন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "আমি কি মোবাইল দিয়ে লাইভ ম্যাচ দেখতে পারি?",
+    "answer": "অবশ্যই, ভালো ইন্টারনেট থাকলে লাইভ ম্যাচ দেখতে পারবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "ক্যাসিনো গেমের জন্য ভালো ডিভাইস কি?",
+    "answer": "স্মার্টফোন বা কম্পিউটার যেকোনো দিয়ে খেলতে পারবেন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "বেটিং এ জিতলে টাকা কবে পাবো?",
+    "answer": "বেট ক্লিয়ার হতেই টাকা ব্যালেন্সে চলে আসে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটে অফার কিভাবে পেতে পারি?",
+    "answer": "সাইটের ‘অফার’ সেকশন নিয়মিত চেক করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমি কি অন্যের অ্যাকাউন্ট ইউজ করতে পারি?",
+    "answer": "না ভাই, এটা বেআইনি ও ঝুঁকিপূর্ণ।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "কিভাবে বেটিং সাইটে নতুন অ্যাকাউন্ট খুলব?",
+    "answer": "রেজিস্ট্রেশন ফর্ম পূরণ করে সহজে খুলতে পারবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিংয়ের জন্য আমার বয়স কত হতে হবে?",
+    "answer": "১৮+ বছর হলে অনলাইনে বেট করতে পারবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি ক্রিপ্টো দিয়ে পেমেন্ট করতে পারি?",
+    "answer": "কিছু সাইট ক্রিপ্টো মুদ্রা সাপোর্ট করে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "সাইটের সাথে টাকা লেনদেন কি নিরাপদ?",
+    "answer": "হ্যাঁ, এনক্রিপ্টেড পেমেন্ট গেটওয়ে দিয়ে টাকা লেনদেন হয়।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং এ লগআউট করাটা জরুরি?",
+    "answer": "হ্যাঁ ভাই, সুরক্ষার জন্য।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কিভাবে আমার একাউন্ট ডিলিট করব?",
+    "answer": "সাপোর্টে মেসেজ দিয়ে আবেদন করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "সাইট বন্ধ থাকলে কি করবো?",
+    "answer": "কিছুক্ষণ পরে আবার চেষ্টা করুন বা সাপোর্টে জানাবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "লাইভ ক্যাসিনো গেমে কত সময় বেট করতে দেওয়া হয়?",
+    "answer": "সাধারণত ৩০ সেকেন্ড থেকে ১ মিনিট পর্যন্ত সময় দেওয়া হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি যদি ভুলে একই বেট বারবার দিই?",
+    "answer": "সাবধানে দেখুন, সাধারণত একই বেট আবার দেওয়া যায় না।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ওয়েবসাইটের কোনো এপ আছে?",
+    "answer": "হ্যাঁ ভাই, অফিসিয়াল মোবাইল অ্যাপ আছে, সাইট থেকে ডাউনলোড করুন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "ক্যাসিনো গেমে কিভাবে জিতবো?",
+    "answer": "ভাগ্য এবং অভিজ্ঞতা দুটোই লাগে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "বেটিং সাইটে লগইন করতেই সমস্যা হচ্ছে",
+    "answer": "পাসওয়ার্ড ভুল অথবা সার্ভার সমস্যা হতে পারে, সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাপোর্ট কত সময়ের মধ্যে রিপ্লাই দেয়?",
+    "answer": "সাধারণত ২৪ ঘণ্টার মধ্যে উত্তর পাওয়া যায়।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "কিভাবে বেটিংয়ে ঝুঁকি কমাবো?",
+    "answer": "সঠিক বাজেট ও কৌশল নিয়ে বেট করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি বন্ধুর জন্য বেট করতে পারি?",
+    "answer": "না ভাই, নিজের একাউন্ট থেকেই বেট করতে হবে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটে কিভাবে টাকা তুলবো?",
+    "answer": "উইথড্রয়াল অপশনে গিয়ে পেমেন্ট মেথড নির্বাচন করে টাকা তুলুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "লাইভ বেটিং এর নিয়ম কি?",
+    "answer": "ম্যাচ চলাকালীন বাজি ধরা এবং অডস অনুযায়ী পেমেন্ট।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইট বন্ধ হয়ে গেলে টাকা যাবে না তো?",
+    "answer": "না, আপনার ব্যালেন্স সাইটে সুরক্ষিত থাকে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কিভাবে বেটিংয়ের সমস্যা রিপোর্ট করব?",
+    "answer": "সাপোর্ট টিমকে বিস্তারিত জানিয়ে রিপোর্ট করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ভাই, আমার একাউন্ট লক কইরা দেয় কেন?",
+    "answer": "সিকিউরিটি সমস্যা বা ভুল লগিনের কারণে একাউন্ট লক হতে পারে। সাপোর্টে জানাতে পারেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে কিভাবে টাকা জমা দিবো?",
+    "answer": "বিকাশ, নগদ, রকেট, ব্যাংক ট্রান্সফার মাধ্যমে সহজে টাকা জমা দিতে পারবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "লাইভ ম্যাচে বেট কেমন করে?",
+    "answer": "লাইভ ম্যাচে চলমান সময় বাজি ধরতে পারেন, অডস পরিবর্তন হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বোনাস টাকার ক্যাশআউট কবে করতে পারি?",
+    "answer": "বোনাসের শর্ত পূরণ হলে আপনি তা ক্যাশআউট করতে পারবেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "ক্যাসিনো গেম গুলো কি ফেক?",
+    "answer": "না, লাইভ ক্যাসিনো গেমে আসল ডিলার থাকে, ফেক না।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "ওয়েবসাইট খুলতে সমস্যা হচ্ছে, VPN লাগবে?",
+    "answer": "বাংলাদেশে অনেক সময় সাইট ব্লক থাকে, VPN ব্যবহার করে দেখুন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "বেটিং সাইটে কাস্টমার সার্ভিস বাংলায় কথা বলে?",
+    "answer": "হ্যাঁ, বেশিরভাগ সাইট বাংলায় সাপোর্ট দেয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি মোবাইল থেকেই বেট করতে পারি?",
+    "answer": "অবশ্যই, মোবাইল ব্রাউজার বা অফিসিয়াল অ্যাপ থেকে বেট করতে পারবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিংয়ের জন্য আমার কি বয়স হতে হবে?",
+    "answer": "সাধারণত ১৮ বছরের বেশি হলে বেটিং করতে পারেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমার বেট কিভাবে কনফার্ম করব?",
+    "answer": "বেট দেওয়ার পর টিকিট বা কনফার্মেশন মেসেজ দেখে নিশ্চিত হোন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটে টাকা তোলার জন্য কি ডকুমেন্ট লাগবে?",
+    "answer": "হ্যাঁ, পরিচয়পত্র ও ব্যাংক তথ্য দিতে হতে পারে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "বেটিং সাইট থেকে টাকা উত্তোলনে কত দিন লাগে?",
+    "answer": "সাধারণত ২৪-৭২ ঘণ্টার মধ্যে টাকা আপনার একাউন্টে চলে আসে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ক্যাসিনো গেমে জেতা গেলে কি টাকা আসলেই পাওয়া যায়?",
+    "answer": "হ্যাঁ, জেতা টাকা সঠিকভাবে আপনার একাউন্টে জমা হয়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "আমার একাউন্টে অস্বাভাবিক কাজ দেখছি, কি করব?",
+    "answer": "ফোরন সাপোর্টে যোগাযোগ করুন, তারা সাহায্য করবে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইট বন্ধ থাকলে কি করব?",
+    "answer": "সাইটে সমস্যার সময় কিছুক্ষণ অপেক্ষা করুন অথবা সাপোর্টে জানাবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ক্যাসিনো গেম গুলো কি ধাঁধা বা ঠকানো?",
+    "answer": "না ভাই, সব গেমের নিয়ন্ত্রণ RNG (Random Number Generator) দ্বারা হয়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "আমি কিভাবে বেটিংয়ের ঝুঁকি কমাব?",
+    "answer": "সঠিক বিশ্লেষণ ও বাজেট ম্যানেজমেন্ট করলেই ঝুঁকি কমে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইটের অফার কিভাবে পাব?",
+    "answer": "সাইটে ‘অফার’ পেজ দেখে নিয়মিত আপডেট পাবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি ক্রিপ্টো দিয়ে টাকা জমা দিতে পারি?",
+    "answer": "হ্যা ক্রিপ্টোকারেন্সি দিয়ে টাকা জমা দিতে পারবেন। এজন্য আমাদের সাপোর্ট টিমের সাথে যোগাযোগ করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "ওয়েবসাইটের পাসওয়ার্ড ভুলে গেলে কি করব?",
+    "answer": "পাসওয়ার্ড রিসেট অপশন থেকে নতুন পাসওয়ার্ড সেট করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে লগইন করতে সমস্যা হচ্ছে?",
+    "answer": "ইন্টারনেট ঠিক আছে কিনা দেখুন, পাসওয়ার্ড ঠিকমতো দিচ্ছেন কিনা চেক করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ক্যাসিনো গেমের জন্য ভালো ডিভাইস কি?",
+    "answer": "মোবাইল, ট্যাব বা কম্পিউটার যেকোনো দিয়ে খেলা যায়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "লাইভ বেটিং কি?",
+    "answer": "ম্যাচ চলাকালীন সময় বাজি ধরাকে লাইভ বেটিং বলে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিংয়ে কত টাকা দিয়ে শুরু করবো?",
+    "answer": "নিজের সামর্থ্য অনুযায়ী কম টাকা দিয়ে শুরু করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাপোর্ট সেন্টারে যোগাযোগ করতে কি সময় লাগে?",
+    "answer": "না , সাধারণত ৫-১০ মিনিটের মধ্যে সাড়া পাওয়া যায়।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "কিভাবে সাইট থেকে টাকা তুলবো?",
+    "answer": "উইথড্রয়াল অপশনে গিয়ে পেমেন্ট মেথড নির্বাচন করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে রেজিস্ট্রেশন ফি লাগে?",
+    "answer": "না, রেজিস্ট্রেশন ফ্রি।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি একাউন্ট ডিলিট করতে পারি?",
+    "answer": "সাপোর্টে অনুরোধ করলে ডিলিট বা ডিএক্টিভেট করা যায়।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে কোন পেমেন্ট মেথড নিরাপদ?",
+    "answer": "বিকাশ, নগদ, ব্যাংক ট্রান্সফার বেশ নিরাপদ।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ক্যাসিনো গেমে জেতার জন্য কোন কৌশল আছে?",
+    "answer": "গেমের নিয়ম বুঝে এবং অভিজ্ঞতা বাড়িয়ে কৌশল তৈরি করতে হয়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "বেটিং সাইটের বোনাস কিভাবে কাজে লাগাবো?",
+    "answer": "বোনাস দিয়ে গেম বা বেটিং করতে পারবেন, শর্ত মেনে ব্যবহার করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইটে লগআউট না করলে কি সমস্যা?",
+    "answer": "সিকিউরিটি ঝুঁকি থাকে, সুতরাং লগআউট করাই ভালো।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কিভাবে আমার বেটিং হিস্ট্রি দেখতে পারি?",
+    "answer": "প্রোফাইল থেকে ‘মাই বেটস’ বা ‘হিস্ট্রি’ সেকশনে দেখুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইট বন্ধ থাকলে কি করব?",
+    "answer": "কিছুক্ষণ অপেক্ষা করুন অথবা সাপোর্টে জানাতে পারেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি বন্ধুদের রেফার করে টাকা পেতে পারি?",
+    "answer": "হ্যাঁ, রেফার করে আয় করতে পারবেন, এজন্য রেফারাল প্রোগ্রামে জয়েন করুন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "সাইটে ফ্রি বেট কিভাবে পেতে পারি?",
+    "answer": "নতুন ইউজার বোনাস অথবা প্রোমোশন থেকে ফ্রি বেট নিতে পারেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি একাধিক একাউন্ট খুলতে পারি?",
+    "answer": "না, এটা নিয়মবিরুদ্ধ এবং একাউন্ট বন্ধ হতে পারে।",
+    "categoryId": 11,
+    "categoryName": "Account_Issues"
+  },
+  {
+    "question": "কীভাবে নিরাপদে বেট করবো?",
+    "answer": "শুধুমাত্র আমাদের অফিসিয়াল সাইট থেকে খেলুন, পাসওয়ার্ড গোপন রাখুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "লাইভ ক্যাসিনো গেম গুলো কি আসল?",
+    "answer": "হ্যাঁ, লাইভ ক্যাসিনোতে আসল ডিলার ভিডিওর মাধ্যমে গেম পরিচালনা করে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "বেটিং সাইটে কিভাবে নতুন গেম খুঁজে পাবো?",
+    "answer": "হোমপেজে নতুন গেমের লিস্ট থাকে, সেখানে থেকে দেখতে পারেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ক্যাসিনো গেমে বাজি রাখার সময় কি সাবধানতা অবলম্বন করব?",
+    "answer": "বাজেট নির্ধারণ করে এবং গেমের নিয়ম ভাল করে বুঝে বেট করুন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "বেটিংয়ের সময় ভুল হলে কি করব?",
+    "answer": "সাপোর্টে দ্রুত যোগাযোগ করুন, কিছু সাইট সাহায্য করতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটে লগইন পেজ সিকিউরড কিনা কিভাবে বুঝবো?",
+    "answer": "URL এ https ও প্যাডলক আইকন থাকলে নিরাপদ।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "ভাই, আমার টাকা জমা দিলাম কিন্তু একাউন্টে আসছে না কেন?",
+    "answer": "টাকা জমার সময় একটু সময় লাগে, ৩০ মিনিট পরেও না আসলে সাপোর্টে জানাবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে সঠিক কিভাবে বেট করবো?",
+    "answer": "বেট দেওয়ার আগে নিয়ম ভালো করে পড়বেন, আর বাজেট ঠিক করে বেট করবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বোনাস কিভাবে কাজে লাগাবো?",
+    "answer": "বোনাস দিয়ে শুধু নির্দিষ্ট গেম বা বেটিং করতে পারবেন, শর্তগুলো আগে বুঝে নিন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "আমি কি অনলাইনে সরাসরি ক্যাসিনো খেলতে পারি?",
+    "answer": "হ্যাঁ, লাইভ ক্যাসিনো গেম গুলো অনলাইনে সরাসরি খেলা যায়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "আমার বেট কিভাবে বাতিল করব?",
+    "answer": "সাধারণত বেট দেওয়ার পর বাতিল করা যায় না, কিন্তু লাইভ বেটিংয়ে কিছু ক্ষেত্রে পারেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটের ওয়েবসাইটে ঢুকতে পারছি না, কী করবো?",
+    "answer": "ইন্টারনেট চেক করুন, VPN চালিয়ে দেখুন বা ব্রাউজার ক্যাশ ক্লিয়ার করুন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "বেটিং সাইটে রেজিস্ট্রেশন করতে সমস্যা হচ্ছে?",
+    "answer": "সব তথ্য ঠিকঠাক দিয়ে আবার চেষ্টা করুন, সমস্যা থাকলে সাপোর্টে বলুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "লাইভ ম্যাচ দেখতে গেলে কত ডাটা লাগে?",
+    "answer": "প্রায় ৩০ থেকে ৫০ এমবির মতো ডাটা খরচ হতে পারে এক ঘন্টার জন্য।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "আমি কিভাবে আমার বেটিং হিস্ট্রি ডাউনলোড করব?",
+    "answer": "সাইটের ‘মাই বেটস’ সেকশনে গিয়ে এক্সপোর্ট অপশন থাকলে ডাউনলোড করতে পারবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইট থেকে টাকা তুলতে চাই, প্রক্রিয়া কি?",
+    "answer": "উইথড্রয়াল পেজে গিয়ে পেমেন্ট মেথড বাছাই করে আবেদন করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমার পাসওয়ার্ড হারিয়ে গেছে, রিকভার করব কিভাবে?",
+    "answer": "লগইন পেজ থেকে পাসওয়ার্ড রিসেট অপশন ব্যবহার করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইট কি বাংলাদেশে আইনত অনুমোদিত?",
+    "answer": "বাংলাদেশে অনলাইন বেটিং নিয়ে নানা আইন রয়েছে, সাবধানে সাইট ব্যবহার করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি বন্ধুর নাম্বার দিয়ে একাউন্ট খুলতে পারি?",
+    "answer": "না, নিজের তথ্য ব্যবহার করাই সঠিক ও নিরাপদ।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে অফার কবে আসে?",
+    "answer": "সাধারণত বিশেষ উৎসব, ম্যাচ বা ক্যাম্পেইনে অফার থাকে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "লাইভ ক্যাসিনো গেমে জেতা টাকা কবে পাবে?",
+    "answer": "গেম শেষ হতেই টাকা আপনার ব্যালেন্সে চলে আসে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "সাইট থেকে টাকা তোলা নিয়ে কতক্ষণ সময় লাগে?",
+    "answer": "সাধারণত ১০ মিনিটের মধ্যে টাকা পাঠিয়ে দেয়া হয়।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "ক্যাসিনো গেম গুলো কি ফেয়ার?",
+    "answer": "সঠিক লাইসেন্স থাকলে গেম ফেয়ার হয়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "বেটিং সাইটে বেশি বেট দিলে কি হয়?",
+    "answer": "আপনার বাজেটের মধ্যে থেকে বেট দিন, বেশি বেট ঝুঁকি বাড়ায়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি মোবাইল ডাটা দিয়ে বেটিং করতে পারি?",
+    "answer": "অবশ্যই, ভালো ইন্টারনেট স্পিড হলে মোবাইল ডাটায় বেটিং সম্ভব।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটে লগআউট না করলে কি সমস্যা?",
+    "answer": "সুরক্ষার জন্য অবশ্যই লগআউট করবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে নতুন গেম কিভাবে খুঁজবো?",
+    "answer": "হোমপেজ বা গেম সেকশনে নতুন গেম দেখতে পারবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কাস্টমার সার্ভিস কি সব সময় অনলাইন থাকে?",
+    "answer": "সাধারণত ২৪/৭ সার্ভিস দেওয়া হয়।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমি কি একসাথে দুই একাউন্ট চালাতে পারি?",
+    "answer": "না, এটা নিয়মবিরোধী এবং একাউন্ট বন্ধ হওয়ার কারণ হতে পারে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "ক্যাসিনো গেম খেলার জন্য কত টাকা লাগবে?",
+    "answer": "গেম অনুযায়ী বেটিং মানি ভিন্ন হয়, সাধারণত কম বাজেট থেকেই শুরু করা যায়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "বেটিং সাইটের ওয়েবসাইট নিরাপদ কিনা?",
+    "answer": "https দিয়ে শুরু হয় এবং ভালো রিভিউ থাকলে নিরাপদ বলে ধরা হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইটে আমার ব্যক্তিগত তথ্য কি সুরক্ষিত?",
+    "answer": "সাইটগুলো এনক্রিপশন ব্যবহার করে তথ্য সুরক্ষিত রাখে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি বিকাশ দিয়ে টাকা তুলতে পারি?",
+    "answer": "হ্যাঁ, বেশিরভাগ সাইট বিকাশ সাপোর্ট করে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিংয়ের জন্য কি কোন প্রকার লাইসেন্স লাগে?",
+    "answer": "আন্তর্জাতিক সাইটগুলো লাইসেন্স নিয়ে পরিচালিত হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমার বেট কনফার্ম হয়নি, কি করব?",
+    "answer": "সাপোর্টে মেসেজ দিয়ে সমস্যাটি জানাবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইট থেকে টাকা তোলার সময় ফি কাটা হয়?",
+    "answer": "কিছু সাইট ফি নিতে পারে, শর্তগুলো খেয়াল করে নিন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "সাইটে কিভাবে প্রোমো কোড ইউজ করব?",
+    "answer": "প্রোমো কোড ফিল্ডে কোড বসিয়ে ব্যবহার করতে পারেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে বোনাস কিভাবে পাব?",
+    "answer": "নতুন ইউজার বা স্পেশাল অফারে বোনাস পাওয়া যায়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি লাইভ গেম দেখার জন্য ফি দিবো?",
+    "answer": "সাধারণত লাইভ স্ট্রিমিং ফ্রি থাকে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে কিভাবে নতুন বাজি দিবো?",
+    "answer": "ম্যাচ বা গেম সিলেক্ট করে বেটিং অপশন থেকে বাজি দিন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ক্যাসিনো গেম গুলো কি সত্যিই লাভজনক?",
+    "answer": "গেমের নিয়ম মেনে খেললে লাভের সুযোগ থাকে, তবে ঝুঁকি কম নয়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "সাইটের সাথে টাকা লেনদেন কতো নিরাপদ?",
+    "answer": "বেশিরভাগ সাইট SSL এনক্রিপশন ব্যবহার করে, তাই নিরাপদ।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "আমি কি একসাথে মোবাইল এবং কম্পিউটার থেকে লগইন করতে পারি?",
+    "answer": "হ্যাঁ, তবে একসাথে একাধিক সেশন একাউন্ট সিকিউরিটি ঝুঁকি বাড়ায়।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে কিভাবে বেট স্ট্যাটাস দেখতে পারি?",
+    "answer": "‘মাই বেটস’ বা ‘বেট হিস্ট্রি’ সেকশনে স্ট্যাটাস দেখতে পারবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বোনাস টাকা কবে খেলার জন্য ব্যবহার করতে পারি?",
+    "answer": "বোনাস শর্ত পূরণ হলে যেকোনো সময় ব্যবহার করতে পারেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "আমি কি বন্ধুদের বেটিং অ্যাকাউন্ট ব্যবহার করতে পারি?",
+    "answer": "না, এটা নিরাপত্তার জন্য নিষিদ্ধ।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইটের ফোন নম্বর কোথায় পাবো?",
+    "answer": "সাপোর্ট পেজে অফিসিয়াল ফোন নম্বর থাকে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি বেটিং সাইট থেকে মোবাইলে নোটিফিকেশন পাবো?",
+    "answer": "হ্যাঁ, মোবাইল নোটিফিকেশন সাপোর্ট করে অনেক সাইট।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ভাই, আমি কিভাবে ওয়েবসাইটে রেজিস্টার করব?",
+    "answer": "সাইটের রেজিস্ট্রেশন ফর্ম ফিলাপ করে, মোবাইল নম্বর দিয়ে সহজে একাউন্ট খুলতে পারবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে টাকা জমা দিতে কি বিকাশ লাগবে?",
+    "answer": "না, বিকাশ ছাড়াও নগদ, রকেট, ব্যাংক ট্রান্সফার অপশনও আছে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি যদি ভুলে বেশি বেট দিয়ে ফেলি, কি করব?",
+    "answer": "দ্রুত সাপোর্টে জানালে কিছু ক্ষেত্রে সাহায্য পাওয়া যায়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "লাইভ ম্যাচ বেটিং কিভাবে কাজ করে?",
+    "answer": "ম্যাচ চলাকালীন সময়ে আপনি বেট করতে পারবেন, অডস লাইভ আপডেট হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমার উইথড্রয়াল পেন্ডিং আছে, কতদিন লাগবে?",
+    "answer": "সাধারণত ১ থেকে ৩ দিনের মধ্যে টাকা প্রসেস হয়।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "বোনাস কিভাবে এক্টিভ করব?",
+    "answer": "অ্যাকাউন্টে লগইন করে প্রোমো কোড দিয়ে অথবা অফার পেজ থেকে এক্টিভ করতে পারেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "ক্যাসিনো গেম খেলার জন্য কি কোনো নিয়ম আছে?",
+    "answer": "গেমের নিয়ম আগে দেখে খেলা শুরু করুন, যাতে ঝামেলা না হয়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "আমি কিভাবে লাইভ ক্যাসিনো গেমে অংশ নিতে পারি?",
+    "answer": "লাইভ ক্যাসিনো সেকশনে গিয়ে ‘Play Now’ ক্লিক করে অংশ নিতে পারবেন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "বেটিং সাইটে লগইন করতে পারছি না, কি করব?",
+    "answer": "পাসওয়ার্ড ভুলে গেলে রিসেট করুন, অথবা সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি একাধিক ডিভাইস থেকে লগইন করতে পারি?",
+    "answer": "হ্যাঁ, কিন্তু একসাথে একাধিক লোকেশনে লগইন করলে সিকিউরিটি ইস্যু হতে পারে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমার বেট ক্যানসেল হয়েছে, কেন?",
+    "answer": "ম্যাচ বাতিল হলে বা সময় শেষ হলে বেট ক্যানসেল হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ক্যাসিনো গেমে আমার টাকা কোথায় যায়?",
+    "answer": "সব বাজি ওয়েবসাইটের সার্ভারে জমা হয়, জেতা গেলে টাকা আসে আপনার একাউন্টে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "বেটিং সাইট থেকে টাকা তুলতে কি ফি লাগবে?",
+    "answer": "কিছু সাইট ফি নেয়, শর্তগুলো আগে দেখে নিন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইটে কিভাবে সাপোর্ট পাবো?",
+    "answer": "লাইভ চ্যাট, ইমেইল বা ফোনের মাধ্যমে সাপোর্ট পাওয়া যায়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটে মোবাইল অ্যাপ আছে কিনা?",
+    "answer": "হ্যাঁ, বেশিরভাগ সাইটের অফিসিয়াল মোবাইল অ্যাপ আছে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমি কি ক্রিপ্টো দিয়ে পেমেন্ট করতে পারি?",
+    "answer": "কিছু সাইট ক্রিপ্টোকারেন্সি সাপোর্ট করে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে কত টাকা দিয়ে শুরু করা ভালো?",
+    "answer": "নিজের বাজেট অনুযায়ী কম টাকা দিয়ে শুরু করা বুদ্ধিমানের কাজ।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "লাইভ বেটিং কত সময় পাওয়া যায়?",
+    "answer": "সাধারণত ম্যাচ চলাকালীন পুরো সময় বেট করতে পারবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমার একাউন্ট থেকে হঠাৎ লগআউট হয়ে যাচ্ছে?",
+    "answer": "সিকিউরিটি কারণে মাঝে মাঝে সিস্টেম লগআউট করে দিতে পারে, আবার লগইন করুন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "বোনাস টাকা কবে অ্যাকাউন্টে আসবে?",
+    "answer": "বোনাস শর্ত পূরণ করলে সাথে সাথেই টাকা যোগ হবে।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "আমি কি একাউন্টের তথ্য পরিবর্তন করতে পারি?",
+    "answer": "সাপোর্টের সাথে যোগাযোগ করে আপনার তথ্য আপডেট করতে পারবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটের ওয়েবসাইট নিরাপদ কিনা?",
+    "answer": "যদি https দিয়ে শুরু হয় এবং ভাল রিভিউ থাকে, নিরাপদ মনে করতে পারেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং করার আগে কি পরামর্শ দিবেন?",
+    "answer": "সাবধানতার সাথে বাজেট ঠিক করুন, সঠিক তথ্য নিয়ে বেট দিন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটে কত সময়ের মধ্যে টাকা আসে?",
+    "answer": "সাধারণত ২৪ থেকে ৭২ ঘণ্টার মধ্যে পেমেন্ট হয়।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "আমি কি বন্ধুর নামে বেট করতে পারি?",
+    "answer": "না, এটা নিরাপত্তার জন্য নিষিদ্ধ।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ওয়েবসাইট বন্ধ থাকলে কি করব?",
+    "answer": "কিছুক্ষণ পরে আবার চেষ্টা করুন অথবা সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "সাইটে কত ধরনের গেম পাওয়া যায়?",
+    "answer": "ক্রিকেট, ফুটবল, ক্যাসিনো, লটারি সহ অনেক গেম পাওয়া যায়।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "বেটিং সাইটে রেফারেল বোনাস কি?",
+    "answer": "বন্ধুকে রেফার করলে বোনাস পাওয়া যায়, শর্ত দেখে নিন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইটে একাউন্ট ডিলিট করতে চাই",
+    "answer": "সাপোর্টে মেইল বা চ্যাট করে আবেদন করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "লাইভ ম্যাচের সময় অডস কেন পরিবর্তিত হয়?",
+    "answer": "ম্যাচের অবস্থা ও ডিমান্ড অনুযায়ী অডস পরিবর্তন হয়।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমি কি লাইভ গেম দেখতে পারি?",
+    "answer": "হ্যাঁ, লাইভ স্ট্রিমিং অপশনে ক্লিক করলে দেখতে পারবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে কিভাবে উইথড্রয়াল করতে হয়?",
+    "answer": "উইথড্রয়াল অপশনে গিয়ে প্রয়োজনীয় তথ্য দিয়ে আবেদন করুন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "বেটিং সাইটের অফিসিয়াল অ্যাপ কোথায় পাবো?",
+    "answer": "সাইটের অফিসিয়াল পেজ থেকে ডাউনলোড করতে পারবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমার বেট কনফার্ম হয়নি কেন?",
+    "answer": "ইন্টারনেট সমস্যা বা সিস্টেম আপডেটে দেরি হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটে রেজিস্ট্রেশন করতে মোবাইল নম্বর লাগে?",
+    "answer": "হ্যাঁ, নিরাপত্তার জন্য মোবাইল নম্বর ব্যবহার হয়।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "বেটিং সাইটে কাস্টমার সার্ভিস কবে থেকে কবে কাজ করে?",
+    "answer": "সাধারণত ২৪/৭ সার্ভিস দেয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি ক্যাসিনো গেমে বিনামূল্যে খেলতে পারি?",
+    "answer": "কিছু সাইট ডেমো মোডে বিনামূল্যে খেলার সুযোগ দেয়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "বেটিং সাইটে কিভাবে বাজি কমাবো?",
+    "answer": "সঠিক বাজেট এবং স্ট্র্যাটেজি মেনে বাজি কমাতে পারেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটে লগইন করতে বার বার প্রম্পট আসছে?",
+    "answer": "কুকিজ ক্লিয়ার করে আবার চেষ্টা করুন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "বোনাসের টাকা ক্যাশ আউট কি সহজ?",
+    "answer": "শর্ত পূরণ হলে বোনাস টাকা সহজে উত্তোলন করতে পারবেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "আমি কি অফিসিয়াল ওয়েবসাইট ছাড়া অন্য কোথাও লগইন করতে পারি?",
+    "answer": "না, শুধু অফিসিয়াল সাইটে লগইন করা উচিত।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটের নীতিমালা কোথায় পাবো?",
+    "answer": "সাইটের ফুটার বা ‘Terms & Conditions’ পেজে পাওয়া যায়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "লাইভ ক্যাসিনো গেমে বেটিং কিভাবে শুরু করব?",
+    "answer": "লাইভ গেম সিলেক্ট করে বাজি দিয়ে খেলতে শুরু করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ভাই, account কিভাবে verify করব?",
+    "answer": "আপনার পরিচয়পত্র ও অন্যান্য তথ্য সঠিকভাবে জমা দিলে একাউন্ট ভেরিফাই করা হয়।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "বেটing করার জন্য কি deposit করা লাগে?",
+    "answer": "হ্যাঁ, বেটিং শুরু করার জন্য আপনার একাউন্টে টাকা থাকতে হবে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "কিভাবে bonus claim করবো?",
+    "answer": "অফারের শর্ত মেনে আপনি বোনাস ক্লেইম করতে পারবেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "আমার withdraw কেন pending আছে?",
+    "answer": "সাধারণত পেমেন্ট প্রসেসিংয়ে কিছু সময় লাগে, ২৪-৭২ ঘণ্টার মধ্যে টাকা আসবে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "live casino গেম কি আসল?",
+    "answer": "হ্যাঁ, লাইভ ক্যাসিনোতে আসল ডিলার থাকে এবং সরাসরি ভিডিও দেখানো হয়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "আমি কি মোবাইল থেকে login করতে পারি?",
+    "answer": "অবশ্যই, মোবাইল ব্রাউজার বা অফিসিয়াল অ্যাপ দিয়ে লগইন করতে পারবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Bet cancel করা যায় কিনা?",
+    "answer": "সাধারণত বেট দেওয়ার পর বাতিল করা যায় না, তবে কিছু ক্ষেত্রে লাইভ বেট বাতিল হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কীভাবে আমার password reset করবো?",
+    "answer": "লগইন পেজ থেকে ‘Forgot Password’ অপশনে গিয়ে পাসওয়ার্ড রিসেট করতে পারবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Lottery result কখন আসে?",
+    "answer": "প্রতিদিন নির্ধারিত সময়েই লটারির ফলাফল প্রকাশ করা হয়।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "My deposit money keno account e ashche na?",
+    "answer": "টাকা জমার প্রক্রিয়ায় কিছু সময় লাগতে পারে, ৩০ মিনিটের বেশি হলে সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "ক্যাসিনো গেমে জিতলে টাকা কবে পাব?",
+    "answer": "গেম শেষে আপনার জেতা টাকা একাউন্টে যুক্ত হবে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "আমি কি friend refer করে bonus পেতে পারি?",
+    "answer": "হ্যাঁ, রেফারেল প্রোগ্রামের মাধ্যমে আপনি বোনাস পেতে পারেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "Live match এর odds কিভাবে change হয়?",
+    "answer": "ম্যাচের পরিস্থিতি ও খেলোয়াড়দের পারফরম্যান্স অনুযায়ী অডস পরিবর্তিত হয়।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে আমার balance কেমন চেক করবো?",
+    "answer": "লগইন করে ‘My Account’ থেকে আপনার ব্যালেন্স দেখতে পারবেন।",
+    "categoryId": 2,
+    "categoryName": "Turnover_Balance"
+  },
+  {
+    "question": "কাস্টমার support কিভাবে contact করবো?",
+    "answer": "লাইভ চ্যাট, ইমেইল অথবা ফোন দিয়ে কাস্টমার সাপোর্ট পাওয়া যায়।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "বেটিং সাইট কি legal বাংলাদেশে?",
+    "answer": "বাংলাদেশে অনলাইন বেটিং নিয়ে আইন কিছুটা কঠোর, সাবধানে সাইট ব্যবহার করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি একাধিক account খুলতে পারি?",
+    "answer": "না, একাধিক একাউন্ট খুললে একাউন্ট বন্ধ হওয়ার সম্ভাবনা থাকে।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "How to start live betting?",
+    "answer": "লাইভ ম্যাচ চলাকালীন সময়ে বেটিং শুরু করতে পারবেন, দ্রুত সিদ্ধান্ত নিতে হবে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বোনাস withdrawal করতে পারবো কিভাবে?",
+    "answer": "বোনাস শর্ত পূরণ করার পর আপনি টাকা উত্তোলন করতে পারবেন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Mobile app download link কোথায় পাব?",
+    "answer": "সাইটের অফিসিয়াল পেজে বা কাস্টমার সাপোর্ট থেকে মোবাইল অ্যাপ ডাউনলোড করতে পারবেন।",
+    "categoryId": 19,
+    "categoryName": "App_Mobile"
+  },
+  {
+    "question": "আমি কি online casino এ খেলতে পারি?",
+    "answer": "হ্যাঁ, অনলাইনে লাইভ ক্যাসিনো গেম খেলা যায়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "কিভাবে আমার account safe রাখবো?",
+    "answer": "শক্ত পাসওয়ার্ড ব্যবহার করুন এবং অন্যের সাথে শেয়ার করবেন না।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "How many types of games are available?",
+    "answer": "সাইটে ক্রিকেট, ফুটবল, ক্যাসিনো, লটারি, এবং আরও অনেক গেম পাওয়া যায়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "আমি কি বিকাশ দিয়ে deposit করতে পারি?",
+    "answer": "অবশ্যই, বেশিরভাগ সাইট বিকাশ পেমেন্ট সাপোর্ট করে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "বেটিং এর জন্য কি age limit আছে?",
+    "answer": "সাধারণত ১৮ বছরের নিচে বেটিং নিষিদ্ধ।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "How to check betting history?",
+    "answer": "‘My Bets’ বা ‘History’ সেকশনে গিয়ে আপনি আপনার বেটিং হিস্ট্রি দেখতে পারবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমার একাউন্ট থেকে হঠাৎ logout হয়ে যাচ্ছে কেন?",
+    "answer": "সিকিউরিটি কারণে মাঝে মাঝে লগআউট হতে পারে, আবার লগইন করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইট এ কিভাবে টাকা তুলবো?",
+    "answer": "উইথড্রয়াল পেজ থেকে প্রয়োজনীয় তথ্য দিয়ে টাকা উত্তোলনের আবেদন করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ক্যাসিনো গেম কি পুরোপুরি fair?",
+    "answer": "সঠিক লাইসেন্স থাকা সাইটে গেমগুলি ফেয়ার এবং নিরাপদ।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "কেন আমার বেট কনফার্ম হয়নি?",
+    "answer": "ইন্টারনেট সংযোগ বা সার্ভারের সমস্যার জন্য বিলম্ব হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি একাউন্ট ডিলিট করতে পারি?",
+    "answer": "সাপোর্টে যোগাযোগ করে একাউন্ট ডিলিট বা ডিএক্টিভেট করতে পারেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বোনাস কিভাবে পাবো?",
+    "answer": "নতুন ইউজার বোনাস এবং স্পেশাল অফারে বোনাস পাওয়া যায়।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "Live casino games এ কীভাবে খেলবো?",
+    "answer": "লাইভ গেম সিলেক্ট করে বাজি দিয়ে খেলা শুরু করতে পারেন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "কিভাবে withdraw request করতে হয়?",
+    "answer": "উইথড্রয়াল অপশনে গিয়ে প্রয়োজনীয় তথ্য দিয়ে আবেদন করুন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "My bet lost keno?",
+    "answer": "বেট হারানো সাধারণ, চেষ্টা করুন আর বিশ্লেষণ করে বেট দিন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কীভাবে সাপোর্ট টিমের সাথে কথা বলব?",
+    "answer": "লাইভ চ্যাট বা ইমেইল পাঠিয়ে সাপোর্ট টিমের সাথে যোগাযোগ করুন।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "My account blocked keno?",
+    "answer": "ভুল লগইন অথবা সাইট নীতিমালা লঙ্ঘনের জন্য একাউন্ট ব্লক হতে পারে।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "Lottery ticket কিভাবে কিনবো?",
+    "answer": "লটারির বিভাগ থেকে টিকিট নির্বাচন করে ক্রয় করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমি কি ফোন থেকে deposit করতে পারি?",
+    "answer": "অবশ্যই, মোবাইল ব্যাংকিং ব্যবহার করে টাকা জমা দিতে পারবেন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "How to know odds for match?",
+    "answer": "ম্যাচ পেজে অডস দেখা যায়, সময় সময় পরিবর্তন হতে পারে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "ক্যাসিনো গেমে বাজি কত টাকা দিয়ে শুরু করবো?",
+    "answer": "নিজের বাজেট অনুযায়ী ছোট বাজি দিয়ে শুরু করুন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "I forgot my login password, what to do?",
+    "answer": "‘Forgot Password’ অপশন ব্যবহার করে পাসওয়ার্ড রিসেট করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে কি কোনো hidden charge আছে?",
+    "answer": "সাধারণত না, তবে শর্ত ভালো করে দেখে নিন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমার withdraw request rejected কেন?",
+    "answer": "শর্ত পূরণ না হলে উইথড্রয়াল বাতিল হতে পারে, সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "আমি কিভাবে account deactivate করতে পারি?",
+    "answer": "একাউন্ট ডি-অ্যাক্টিভেশনের জন্য কাস্টমার সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "ক্যাসিনো গেমে জেতা টাকা কবে আমার অ্যাকাউন্টে আসবে?",
+    "answer": "গেম শেষ হতেই জেতা টাকা আপনার ব্যালেন্সে যুক্ত হবে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "বোনাস ইউজ করার কি কোনো expiry date থাকে?",
+    "answer": "হ্যাঁ, বোনাসের মেয়াদ থাকে, শর্তগুলো ভালো করে পড়ে নিন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "কিভাবে আমার password change করবো?",
+    "answer": "একাউন্ট সেটিংসে গিয়ে ‘Change Password’ অপশন থেকে পাসওয়ার্ড পরিবর্তন করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমার deposit failed হয়েছে, কি করবো?",
+    "answer": "দয়া করে সাপোর্টে যোগাযোগ করে আপনার সমস্যার তথ্য জানান।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Live betting এ কেমন রিস্ক থাকে?",
+    "answer": "লাইভ বেটিং ঝুঁকিপূর্ণ, তাই সতর্কতার সাথে বাজি দিন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি বিকাশ ছাড়া অন্য পেমেন্ট মেথড ইউজ করতে পারি?",
+    "answer": "অবশ্যই, নগদ, রকেট, ব্যাংক ট্রান্সফার ইত্যাদি সাপোর্ট করে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "কেন আমার withdraw request delay করছে?",
+    "answer": "পেমেন্ট গেটওয়ের ট্রাফিকের কারণে বিলম্ব হতে পারে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "আমি কি একসাথে একাধিক device থেকে login করতে পারি?",
+    "answer": "হ্যাঁ, কিন্তু একসাথে অনেক জায়গা থেকে লগইন করলে সিকিউরিটি ঝুঁকি থাকে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Lottery টিকিট কিভাবে verify করবো?",
+    "answer": "টিকিট নম্বর দিয়ে ওয়েবসাইটে ফলাফল চেক করতে পারবেন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "Bet cancel করতে চাই, কি করব?",
+    "answer": "বেট দেওয়ার পর সাধারণত বাতিল করা যায় না, লাইভ বেটিংয়ের ক্ষেত্রে কিছু শর্ত থাকে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটে আমার বেট কেন রিভার্স হয়েছে?",
+    "answer": "ম্যাচ বাতিল হলে বা নিয়ম ভঙ্গ হলে বেট রিভার্স হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কিভাবে নতুন গেম খুঁজবো?",
+    "answer": "হোমপেজ বা গেম ক্যাটাগরিতে গিয়ে নতুন গেম দেখা যায়।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "কাস্টমার সাপোর্টে response time কত?",
+    "answer": "সাধারণত ৫-১০ মিনিটের মধ্যে উত্তর দেওয়া হয়।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "বেটিং সাইটের trustworthiness কেমন?",
+    "answer": "লাইসেন্সপ্রাপ্ত ও ভালো রিভিউ থাকা সাইট নিরাপদ বলে ধরা হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কি কারণে আমার account suspend হয়েছে?",
+    "answer": "নিয়ম লঙ্ঘন, ফ্রড বা নিরাপত্তা সমস্যার কারণে অ্যাকাউন্ট সাসপেন্ড হতে পারে।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "আমি কি ক্যাসিনো গেম ডেমো মোডে খেলতে পারি?",
+    "answer": "অনেক সাইট ডেমো মোড সাপোর্ট করে, যা দিয়ে বিনামূল্যে খেলতে পারবেন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Betting limits কি থাকে?",
+    "answer": "প্রতিটি গেম ও সাইটের নিজস্ব বেটিং লিমিট থাকে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "কীভাবে সঠিক ম্যাচ বেট করতে পারি?",
+    "answer": "খেলার আগের তথ্য ভালো করে বিশ্লেষণ করে বেট দিন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি আমার বেট history ডাউনলোড করতে পারি?",
+    "answer": "কিছু সাইট history export করার সুবিধা দেয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি withdraw এর আগে deposit verify করতে হবে?",
+    "answer": "হ্যাঁ, নিরাপত্তার জন্য কখনো কখনো ভেরিফিকেশন প্রয়োজন হয়।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "বোনাস পাওয়ার জন্য কি referral দিতে হবে?",
+    "answer": "কিছু অফারে রেফারেল প্রয়োজন, শর্তগুলো দেখে নিন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "বেটিং সাইট থেকে scam হওয়া থেকে কিভাবে বাঁচবো?",
+    "answer": "শুধুমাত্র লাইসেন্সপ্রাপ্ত ও রিভিউ ভালো সাইট ব্যবহার করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কেন আমার winnings withdraw করতে পারছি না?",
+    "answer": "বোনাস শর্ত বা ডকুমেন্ট ভেরিফিকেশনের জন্য টাকা আটকে থাকতে পারে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "সাইটে লগইন করতে পারছি না, ভুল password কি করব?",
+    "answer": "‘Forgot Password’ অপশন থেকে পাসওয়ার্ড রিসেট করুন।",
+    "categoryId": 11,
+    "categoryName": "Account_Issues"
+  },
+  {
+    "question": "আমি কি এক্সক্লুসিভ অফার পেতে পারি?",
+    "answer": "নিয়মিত প্লেয়াররা বিশেষ অফার পেতে পারেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "My account er security কেমন?",
+    "answer": "সাইটগুলো SSL এনক্রিপশন ও ২-ফ্যাক্টর অথেনটিকেশন ব্যবহার করে।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "ক্যাসিনো গেমে winning কি নিশ্চিত?",
+    "answer": "গেম RNG প্রযুক্তি ব্যবহার করে, তবে জয়ের নিশ্চয়তা নেই।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "How to update my personal info?",
+    "answer": "কাস্টমার সাপোর্টে যোগাযোগ করে তথ্য আপডেট করতে পারেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে কি আমাকে age proof দিতে হয়?",
+    "answer": "হ্যাঁ, অনেক সাইটে ১৮+ প্রমাণ করতে হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি international payment method ব্যবহার করতে পারি?",
+    "answer": "কিছু সাইট পেপ্যাল, স্ক্রিল ইত্যাদি সাপোর্ট করে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমি কি বেটিং সাইটে live chat করতে পারি?",
+    "answer": "হ্যাঁ, অধিকাংশ সাইট ২৪/৭ লাইভ চ্যাট সাপোর্ট করে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Lottery tickets কি নিরাপদ?",
+    "answer": "অফিশিয়াল সাইট থেকে কেনা লটারির টিকিট নিরাপদ।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "সাইটের নতুন আপডেট কিভাবে জানবো?",
+    "answer": "ইমেইল, এসএমএস অথবা সাইটের নোটিফিকেশনের মাধ্যমে জানানো হয়।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "কি কারণে আমার bet rejected হয়েছে?",
+    "answer": "বেটিং সময় সীমা শেষ হওয়া বা সিস্টেমের কারণে বাতিল হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কিভাবে responsible gaming করব?",
+    "answer": "নিজেকে সময় দিন, বাজেট ঠিক করুন, অতিরিক্ত বেটিং এড়িয়ে চলুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "সাইট থেকে withdrawal limit কত?",
+    "answer": "সাইট অনুসারে দৈনিক, সাপ্তাহিক বা মাসিক withdrawal লিমিট থাকে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "কিভাবে বেটিং সাইট থেকে promo code পাবো?",
+    "answer": "অফার পেজ, ইমেইল অথবা সোশ্যাল মিডিয়া থেকে প্রোমো কোড পাওয়া যায়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ক্যাসিনো গেমের জন্য system requirements কি?",
+    "answer": "ইন্টারনেট স্পিড ভালো হলে ও আধুনিক ব্রাউজার থাকলে গেম ভাল চলে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "আমি কি betting site এর rules change করতে পারি?",
+    "answer": "না, সাইটের নিয়ম মেনে চলা বাধ্যতামূলক।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "My account blocked, কিভাবে আনব্লক করব?",
+    "answer": "সাপোর্ট টিমকে সমস্যার কারণ জানিয়ে আবেদন করুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "বেটিং সাইটে কি affiliate program আছে?",
+    "answer": "হ্যাঁ, অনেক সাইটে অ্যাফিলিয়েট প্রোগ্রাম রয়েছে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ভাই, কিভাবে সাইট থেকে টাকা তুলবো?",
+    "answer": "উইথড্রয়াল পেজে গিয়ে আপনার পেমেন্ট মেথড নির্বাচন করে টাকা তুলুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Bet kora shuru kibhabe korbo?",
+    "answer": "রেজিস্ট্রেশন করে টাকা ডিপোজিট করুন, তারপর আপনার পছন্দের গেমে বেট দিন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "লাইভ ম্যাচ কোথায় দেখতে পারি?",
+    "answer": "‘লাইভ’ সেকশনে গিয়ে চলমান ম্যাচগুলো দেখতে পারবেন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "আমার একাউন্ট লক হয়ে গেছে, কি করব?",
+    "answer": "কাস্টমার সাপোর্টের সাথে যোগাযোগ করুন, তারা সাহায্য করবে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Deposit process কতোক্ষণ সময় নেয়?",
+    "answer": "সাধারণত ৫-৩০ মিনিটের মধ্যে টাকা আপনার একাউন্টে চলে আসে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Bonus claim korte ki korte hoy?",
+    "answer": "অফারের শর্তগুলো পড়ুন এবং প্রয়োজনীয় ধাপ অনুসরণ করুন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "Withdraw korar jonno ki document lage?",
+    "answer": "অনেক সময় আইডি প্রমাণসহ ডকুমেন্ট জমা দিতে হতে পারে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Bet cancel kora jay?",
+    "answer": "সাধারণত বেট দেওয়ার পর বাতিল করা যায় না, তবে লাইভ বেটিংয়ের ক্ষেত্রে শর্ত ভিন্ন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি একাধিক একাউন্ট চালাতে পারি?",
+    "answer": "না, একাধিক একাউন্ট ব্যবহার সাইট নীতিমালা লঙ্ঘন।",
+    "categoryId": 11,
+    "categoryName": "Account_Issues"
+  },
+  {
+    "question": "Casino game gula ki safe?",
+    "answer": "লাইসেন্সপ্রাপ্ত সাইটের ক্যাসিনো গেম নিরাপদ।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "আমি কিভাবে বেটিং সাইটে রেজিস্ট্রেশন করব?",
+    "answer": "সাইটের সাইন আপ পেজে গিয়ে তথ্য দিয়ে রেজিস্ট্রেশন করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Live casino khelte ki internet fast lagbe?",
+    "answer": "হ্যাঁ, ভালো ইন্টারনেট স্পিড হলে গেম ভালো চলবে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Referral bonus kivabe pabo?",
+    "answer": "বন্ধুকে রেফার করলে এবং সে রেজিস্ট্রেশন করলে বোনাস পাবেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "Lottery result kothay dekha jabe?",
+    "answer": "সাইটের লটারির ফলাফল পেজ থেকে দেখতে পারবেন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "My bet confirmed kina?",
+    "answer": "‘My Bets’ সেকশনে গিয়ে বেটের স্ট্যাটাস চেক করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কেন আমার Withdraw rejected হলো?",
+    "answer": "বোনাস শর্ত না মানা বা ডকুমেন্ট অনুপস্থিতির জন্য হতে পারে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Account er password bhule gesi, ki korbo?",
+    "answer": "‘Forgot Password’ থেকে পাসওয়ার্ড রিসেট করুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "I want to play live games, how to start?",
+    "answer": "লাইভ গেম সেকশনে গিয়ে আপনার পছন্দের গেম বেছে নিন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Bonus withdraw korte ki rules ache?",
+    "answer": "বোনাসের শর্ত পূরণ না হলে টাকা উত্তোলন সম্ভব নয়।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Site ta legal kina Bangladesh e?",
+    "answer": "বাংলাদেশে অনলাইন বেটিং নিয়ে আইন কঠোর, সাবধানতার সাথে সাইট ব্যবহার করুন।",
+    "categoryId": 11,
+    "categoryName": "Account_Issues"
+  },
+  {
+    "question": "আমি কি মোবাইল থেকে খেলতে পারি?",
+    "answer": "অবশ্যই, মোবাইল ব্রাউজার অথবা অফিসিয়াল অ্যাপ থেকে খেলতে পারবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "কিভাবে আমার personal info update করব?",
+    "answer": "কাস্টমার সাপোর্টের মাধ্যমে তথ্য আপডেট করতে পারবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে কত টাকা দিয়ে শুরু করব?",
+    "answer": "নিজের বাজেট অনুযায়ী কম টাকা দিয়ে শুরু করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Withdraw time koto?",
+    "answer": "সাধারণত ২৪ থেকে ৭২ ঘণ্টার মধ্যে টাকা চলে আসে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Betting odds change keno hoy?",
+    "answer": "ম্যাচের পরিস্থিতি ও বাজারের চাহিদা অনুযায়ী অডস পরিবর্তিত হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Casino te ki demo mode ase?",
+    "answer": "অনেক সাইটে ডেমো মোডে বিনামূল্যে খেলার সুবিধা রয়েছে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "কেন আমার বেট রিভার্স হয়ে গেছে?",
+    "answer": "ম্যাচ বাতিল অথবা নিয়ম ভঙ্গের কারণে বেট রিভার্স হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Live bet diye টাকা কিভাবে জিতবো?",
+    "answer": "সঠিক তথ্য ও দ্রুত সিদ্ধান্ত নিয়ে বেট দিন, তবে ঝুঁকি থাকে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Site er support contact kothay?",
+    "answer": "লাইভ চ্যাট, ইমেইল বা ফোন থেকে সাপোর্ট পাবেন।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "কি কারণে আমার account block hoyeche?",
+    "answer": "নিরাপত্তা ঝুঁকি, ফ্রড বা নিয়ম লঙ্ঘনের জন্য।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "Betting limits koto?",
+    "answer": "সাইট ও গেম অনুযায়ী বেটিং লিমিট ভিন্ন হয়।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Withdraw er jonno ki KYC lagbe?",
+    "answer": "বেশিরভাগ সাইটে KYC প্রক্রিয়া থাকে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "ক্যাসিনো গেম কিভাবে খেলা হয়?",
+    "answer": "গেম নিয়ম বুঝে বাজি দিয়ে খেলুন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Betting site er login problem keno hoy?",
+    "answer": "পাসওয়ার্ড ভুল অথবা সার্ভার সমস্যার জন্য হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Bonus ar sathe ki cashout kora jay?",
+    "answer": "শর্ত পূরণ হলে বোনাসসহ ক্যাশআউট করা যায়।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "Lottery ticket kothay kinbo?",
+    "answer": "সাইটের লটারির বিভাগ থেকে টিকিট ক্রয় করতে পারবেন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "Kivabe bet cancel korbo?",
+    "answer": "সাধারণ বেট বাতিল হয় না, লাইভ বেটিংয়ের ক্ষেত্রে শর্ত আছে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Withdraw korar pore taka kobe asbe?",
+    "answer": "সাধারণত ১ থেকে ৩ দিনের মধ্যে টাকা পাওয়া যায়।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Referral link kothay pabo?",
+    "answer": "অ্যাকাউন্ট থেকে রেফারেল লিঙ্ক কপি করতে পারবেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "Site er license ache?",
+    "answer": "বিশ্বস্ত সাইটগুলোতে সাধারণত লাইসেন্স থাকে।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "Casino game er odds kemon?",
+    "answer": "গেম RNG প্রযুক্তি ব্যবহার করে, যা ফেয়ার।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Betting er jonno ki kono training lage?",
+    "answer": "অনলাইন টিউটোরিয়াল দেখে আপনি শেখার চেষ্টা করতে পারেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Site er app download kothay pabo?",
+    "answer": "সাইটের অফিসিয়াল পেজ থেকে অ্যাপ ডাউনলোড করতে পারবেন।",
+    "categoryId": 19,
+    "categoryName": "App_Mobile"
+  },
+  {
+    "question": "Betting e ki profit thake?",
+    "answer": "সঠিক তথ্য ও কৌশল থাকলে লাভের সুযোগ থাকে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কিভাবে নতুন গেম শিখতে পারি?",
+    "answer": "আপনি আমাদের টিউটোরিয়াল বা গাইড দেখে গেম শিখতে পারেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Deposit করার সময় কি কোনো সমস্যা হলে কি করব?",
+    "answer": "যদি ডিপোজিটে সমস্যা হয়, দ্রুত কাস্টমার সাপোর্টে জানান।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Live betting এ কিভাবে টাকা জিতবো?",
+    "answer": "লাইভ ম্যাচের গতিবিধি বুঝে বেট দিন, তবে সতর্ক থাকুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Bet history কিভাবে দেখতে পারি?",
+    "answer": "আপনার অ্যাকাউন্টের ‘My Bets’ সেকশনে গিয়ে দেখতে পারবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইটে কিভাবে কাস্টমার সাপোর্ট পাবো?",
+    "answer": "লাইভ চ্যাট, ইমেইল অথবা ফোনে কাস্টমার সাপোর্ট পাওয়া যায়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বোনাসের জন্য কি প্রোমো কোড দরকার?",
+    "answer": "কিছু অফারে প্রোমো কোড ব্যবহার করতে হয়, শর্তগুলো পড়ুন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "আমি কি একই IP থেকে একাধিক অ্যাকাউন্ট খুলতে পারি?",
+    "answer": "না, একাধিক অ্যাকাউন্ট খুললে সাসপেনশন হতে পারে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Withdrawal কবে পেয়ে যাবো?",
+    "answer": "সাধারণত ২৪ থেকে ৭২ ঘণ্টার মধ্যে টাকা আপনার কাছে যাবে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "কেন আমার বেট রিজেক্ট হয়েছে?",
+    "answer": "বেট দেওয়ার সময় সময় শেষ হয়ে গেলে বা নিয়ম ভঙ্গ করলে বেট বাতিল হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Casino গেম কি ঝুঁকিপূর্ণ?",
+    "answer": "সব গেমে ঝুঁকি থাকে, তাই সতর্কতার সঙ্গে বাজি দিন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "আমি কি মোবাইল থেকে বেট দিতে পারি?",
+    "answer": "অবশ্যই, মোবাইল অ্যাপ বা ব্রাউজার থেকে বেট দেওয়া যায়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "My withdraw request denied, why?",
+    "answer": "বোনাস শর্ত না পূরণ বা ডকুমেন্ট ভেরিফিকেশন না হওয়ার জন্য হতে পারে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "আমি কিভাবে অ্যাকাউন্ট ভেরিফাই করব?",
+    "answer": "প্রয়োজনীয় ডকুমেন্ট জমা দিয়ে একাউন্ট ভেরিফাই করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Lottery টিকিট কোথা থেকে কিনবো?",
+    "answer": "সাইটের লটারির বিভাগ থেকে সহজে টিকিট ক্রয় করতে পারবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Live casino গেমে কি জিতলে টাকা পাবে?",
+    "answer": "হ্যাঁ, জেতা টাকা আপনার একাউন্টে যুক্ত হবে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "কেন আমার একাউন্ট ব্লক করা হয়েছে?",
+    "answer": "নিয়ম লঙ্ঘন বা নিরাপত্তার কারণে একাউন্ট ব্লক হতে পারে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Referral bonus কিভাবে পাবো?",
+    "answer": "বন্ধুকে রেফার করলে এবং সে রেজিস্ট্রেশন করলে বোনাস পাবেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "Bet cancel করতে চাই, কিভাবে করব?",
+    "answer": "সাধারণ বেট বাতিল হয় না, তবে লাইভ বেটিংয়ে কিছু শর্ত থাকে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ক্যাসিনো গেমের নিয়ম কোথায় পাব?",
+    "answer": "প্রতিটি গেমের পেজে বিস্তারিত নিয়ম দেওয়া থাকে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "কিভাবে বোনাস টাকা withdraw করব?",
+    "answer": "বোনাস শর্ত পূরণ করলে বোনাস টাকা উত্তোলন করতে পারবেন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "My bet confirmed kina?",
+    "answer": "আপনার বেট ‘My Bets’ সেকশনে দেখা যাবে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেটিং সাইটে কীভাবে নিরাপত্তা নিশ্চিত হয়?",
+    "answer": "সাইটগুলো SSL এনক্রিপশন ও নিরাপদ পেমেন্ট গেটওয়ে ব্যবহার করে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কেন আমার ডিপোজিট অ্যাকাউন্টে আসেনি?",
+    "answer": "পেমেন্ট প্রসেসিংয়ে বিলম্ব হতে পারে, ৩০ মিনিটের বেশি হলে সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "বেটিং সাইটে নতুন হলে কি করব?",
+    "answer": "সাইটের টিউটোরিয়াল দেখুন এবং ছোট বাজি দিয়ে শুরু করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Live betting এর জন্য কতো টাকা লাগবে?",
+    "answer": "নিজের বাজেট অনুযায়ী কম টাকা দিয়ে শুরু করা ভালো।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "I want to change my registered phone number, how?",
+    "answer": "সাপোর্টে যোগাযোগ করে ফোন নম্বর পরিবর্তন করতে পারেন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "কিভাবে কাস্টমার সাপোর্টের সাথে কথা বলব?",
+    "answer": "লাইভ চ্যাট, ফোন অথবা ইমেইল ব্যবহার করতে পারেন।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "সাইটে লগইন করতে সমস্যা হচ্ছে, কি করব?",
+    "answer": "পাসওয়ার্ড ভুলে গেলে ‘Forgot Password’ থেকে রিসেট করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "বেটিং সাইটে কি কোনো hidden fee থাকে?",
+    "answer": "সাধারণত কোনো গোপন ফি থাকে না, তবে শর্তগুলো ভালো করে পড়ুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কি এক্সক্লুসিভ অফার পেতে পারি?",
+    "answer": "বিশেষ ইউজারদের জন্য সময় সময় এক্সক্লুসিভ অফার দেওয়া হয়।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Casino game এ কত সময় লাগে খেলার জন্য?",
+    "answer": "গেম ধরন অনুযায়ী সময় ভিন্ন হতে পারে, সাধারণত ৫-১০ মিনিট।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Lottery কিভাবে খেলা হয়?",
+    "answer": "টিকিট কিনে লটারির ড্র দেখুন, যদি নম্বর মিলে তবে জিতবেন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "My account blocked, how to unblock?",
+    "answer": "সাপোর্টে যোগাযোগ করে সমস্যার কারণ জানান এবং আনব্লক আবেদন করুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "বেটিং সাইটে কিভাবে নতুন গেম জানতে পারব?",
+    "answer": "সাইটের হোমপেজ বা গেম ক্যাটাগরিতে নতুন গেম দেখানো হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Withdraw request কিভাবে track করব?",
+    "answer": "অ্যাকাউন্টের উইথড্রয়াল হিষ্ট্রি থেকে ট্র্যাক করতে পারবেন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "কেন আমার বেট রিভার্স হয়ে গেছে?",
+    "answer": "ম্যাচ বাতিল বা নিয়ম ভঙ্গের কারণে বেট রিভার্স হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বোনাস কিভাবে activate করব?",
+    "answer": "অফারের শর্ত অনুযায়ী বোনাস কোড ব্যবহার করে বা স্বয়ংক্রিয়ভাবে।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "বেটিং সাইটের লাইসেন্স আছে কিনা কিভাবে বুঝব?",
+    "answer": "সাইটের ফুটারে বা ‘About Us’ পেজে লাইসেন্সের তথ্য থাকে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কাস্টমার সাপোর্টের কাজের সময় কি?",
+    "answer": "সাধারণত ২৪/৭ সাপোর্ট পাওয়া যায়।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "My bet lost, what to do?",
+    "answer": "সবসময় সাবধানতার সঙ্গে বাজি দিন এবং হেরে হতাশ হবেন না।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Mobile app download link কোথায় পাব?",
+    "answer": "সাইটের অফিসিয়াল পেজ থেকে মোবাইল অ্যাপ ডাউনলোড করতে পারবেন।",
+    "categoryId": 19,
+    "categoryName": "App_Mobile"
+  },
+  {
+    "question": "কিভাবে নিজের বাজেট ম্যানেজ করব?",
+    "answer": "প্রতিদিন একটি নির্দিষ্ট বাজেট রাখুন এবং তার বেশি বাজি দেবেন না।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Betting site এ কিভাবে সিকিউরিটি নিশ্চিত হয়?",
+    "answer": "এসএসএল এনক্রিপশন এবং নিরাপদ সার্ভার ব্যবহৃত হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমার টিকা অ্যাকাউন্টে আসেনি, কি করব?",
+    "answer": "টাকা ট্রান্সফার বিলম্বিত হলে কাস্টমার সাপোর্টে জানান।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "আমি কিভাবে কাস্টমার সাপোর্ট সাথে কথা বলবো?",
+    "answer": "লাইভ চ্যাট, ইমেইল অথবা ফোনে কাস্টমার সাপোর্ট পাওয়া যায়।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "Betting er jonno account verify korte hoy?",
+    "answer": "হ্যাঁ, নিরাপত্তার জন্য একাউন্ট ভেরিফিকেশন প্রয়োজন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Withdrawal er jonno ki document lagbe?",
+    "answer": "সাধারণত জাতীয় পরিচয়পত্র ও ফোন নম্বর ভেরিফিকেশন লাগে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Live match bet diye টাকা কিভাবে জেতা যায়?",
+    "answer": "ম্যাচের গতিবিধি বুঝে দ্রুত বেট দিন, তবে ঝুঁকি থাকে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Bonus claim করতে কি করতে হয়?",
+    "answer": "অফারের শর্ত মেনে বোনাস কোড প্রয়োগ করুন বা স্বয়ংক্রিয়ভাবে পাবেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "ক্যাসিনো গেম খেলতে কি ইন্টারনেট ভালো লাগবে?",
+    "answer": "হ্যাঁ, দ্রুত এবং স্থিতিশীল ইন্টারনেট প্রয়োজন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Deposit করতে কত সময় লাগে?",
+    "answer": "সাধারণত ৫ থেকে ৩০ মিনিট সময় লাগে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "আমি কি বিকাশ দিয়ে deposit করতে পারি?",
+    "answer": "অবশ্যই, বিকাশ পেমেন্ট মেথড সাপোর্ট করা হয়।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Account lock হয়ে গেলে কি করব?",
+    "answer": "কাস্টমার সাপোর্টের সাথে যোগাযোগ করুন, তারা সাহায্য করবে।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "Lottery result কিভাবে চেক করবো?",
+    "answer": "সাইটের ‘Lottery Results’ পেজে ফলাফল দেখা যায়।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Bet cancel করা যায় কি?",
+    "answer": "সাধারণ বেট বাতিল হয় না, লাইভ বেটিংয়ের ক্ষেত্রে শর্ত থাকে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "সাইটে নতুন হলে কি করব?",
+    "answer": "ছোট বাজি দিয়ে শুরু করুন এবং নিয়মিত গাইড পড়ুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Withdraw কবে পেয়ে যাবো?",
+    "answer": "সাধারণত ২৪ থেকে ৭২ ঘণ্টার মধ্যে টাকা চলে আসে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "My bet confirmed kina?",
+    "answer": "‘My Bets’ সেকশনে গিয়ে দেখতে পারবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Referral bonus কিভাবে পাব?",
+    "answer": "বন্ধুকে রেফার করলে বোনাস পাওয়া যায়।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "Betting limits কতো?",
+    "answer": "সাইট ও গেম অনুযায়ী বেটিং লিমিট থাকে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "আমি কি মোবাইল থেকে খেলতে পারি?",
+    "answer": "অবশ্যই, মোবাইল অ্যাপ অথবা ব্রাউজার থেকে খেলতে পারবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Withdraw request rejected কেন?",
+    "answer": "শর্ত পূরণ না হলে অথবা ডকুমেন্ট না থাকলে বাতিল হতে পারে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "কেন আমার বেট রিজেক্ট হয়েছে?",
+    "answer": "বেট দেওয়ার সময় শেষ হয়ে গেলে অথবা নিয়ম ভঙ্গ হলে বাতিল হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Casino গেম ফেয়ার কি?",
+    "answer": "লাইসেন্সপ্রাপ্ত সাইটে গেম ফেয়ার ও নিরাপদ।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "কিভাবে পাসওয়ার্ড রিসেট করব?",
+    "answer": "‘Forgot Password’ থেকে পাসওয়ার্ড রিসেট করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Betting site er license ache kina?",
+    "answer": "বিশ্বস্ত সাইটের ফুটারে লাইসেন্স তথ্য থাকে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কাস্টমার সাপোর্ট কেমন?",
+    "answer": "সাপোর্ট দ্রুত এবং বন্ধুভাবাপন্ন হয়।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "Lottery ticket কিভাবে কিনবো?",
+    "answer": "সাইটের লটারির বিভাগ থেকে সহজে কিনতে পারবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "কেন আমার একাউন্ট ব্লক হয়েছে?",
+    "answer": "নিয়ম লঙ্ঘন বা নিরাপত্তা ঝুঁকির জন্য ব্লক হতে পারে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "My withdraw time koto?",
+    "answer": "সাধারণত ২৪-৭২ ঘণ্টার মধ্যে টাকা চলে আসে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Betting odds keno change hoy?",
+    "answer": "ম্যাচের অবস্থা ও বাজারের চাহিদা অনুযায়ী পরিবর্তিত হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Casino game demo mode ase?",
+    "answer": "অনেক সাইটে বিনামূল্যে ডেমো মোডে খেলা যায়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "কিভাবে নতুন গেম পাব?",
+    "answer": "সাইটের হোমপেজ বা গেম ক্যাটাগরি থেকে নতুন গেম দেখতে পারেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Withdrawal limit কতো?",
+    "answer": "সাইট অনুসারে দৈনিক বা মাসিক সীমা থাকে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "আমি কি একসাথে অনেক ডিভাইসে লগইন করতে পারি?",
+    "answer": "হ্যাঁ, কিন্তু নিরাপত্তার জন্য সতর্ক থাকুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Live betting কি ঝুঁকিপূর্ণ?",
+    "answer": "হ্যাঁ, তাই সতর্কতার সঙ্গে বেট দিন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কেন আমার deposit failed হয়েছে?",
+    "answer": "পেমেন্ট গেটওয়ের সমস্যা অথবা ইন্টারনেট সংযোগ সমস্যা থাকতে পারে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "কিভাবে আমার অ্যাকাউন্ট ডিলিট করব?",
+    "answer": "কাস্টমার সাপোর্টে যোগাযোগ করে ডিলিট করার অনুরোধ করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Bonus withdrawal করতে কি শর্ত আছে?",
+    "answer": "বোনাস শর্ত পূরণ না করলে উত্তোলন সম্ভব নয়।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "My account er security kemon?",
+    "answer": "সাইটগুলো SSL এনক্রিপশন ও ২-ফ্যাক্টর অথেনটিকেশন ব্যবহার করে।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "Betting site e ki hidden charge ase?",
+    "answer": "সাধারণত না, তবে শর্ত ভালো করে পড়ুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Lottery er result kobe ashbe?",
+    "answer": "প্রতিদিন নির্দিষ্ট সময় ফলাফল প্রকাশ করা হয়।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "Casino game jeeta hole taka kobe pabo?",
+    "answer": "গেম শেষে জেতা টাকা আপনার অ্যাকাউন্টে যুক্ত হবে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Referral program ki ache?",
+    "answer": "হ্যাঁ, বন্ধুকে রেফার করলে বোনাস পেতে পারেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "Site er app download kothay pabo?",
+    "answer": "সাইটের অফিসিয়াল পেজ থেকে মোবাইল অ্যাপ ডাউনলোড করুন।",
+    "categoryId": 19,
+    "categoryName": "App_Mobile"
+  },
+  {
+    "question": "আমি কি একসাথে একাধিক account চালাতে পারি?",
+    "answer": "না, একাধিক একাউন্ট ব্যবহার নিষিদ্ধ।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "Betting e profit koto?",
+    "answer": "সঠিক বিশ্লেষণ ও কৌশল থাকলে লাভের সম্ভাবনা থাকে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "How to update my personal info?",
+    "answer": "কাস্টমার সাপোর্টের মাধ্যমে তথ্য আপডেট করতে পারবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Betting site er terms and conditions kothay pabo?",
+    "answer": "সাইটের ফুটারে বা ‘Terms & Conditions’ পেজে পাওয়া যায়।",
+    "categoryId": 2,
+    "categoryName": "Turnover_Balance"
+  },
+  {
+    "question": "Lottery ticket purchase korar niyom ki?",
+    "answer": "সাইটে লগইন করে লটারি বিভাগ থেকে টিকিট ক্রয় করুন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "Live casino gulo ki fair?",
+    "answer": "লাইসেন্সপ্রাপ্ত সাইটের গেম ফেয়ার ও নিরাপদ।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Withdrawal process koto din lage?",
+    "answer": "সাধারণত ১-৩ কার্যদিবসের মধ্যে টাকা চলে আসে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Betting e ki risk ase?",
+    "answer": "অবশ্যই, তাই সচেতনভাবে বাজি দিন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Bet cancel korte ki pari?",
+    "answer": "সাধারণ বেট বাতিল হয় না, লাইভ বেটিংয়ে শর্ত ভিন্ন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "How to contact support quickly?",
+    "answer": "লাইভ চ্যাট অথবা ফোন ব্যবহার করে দ্রুত যোগাযোগ করুন।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "কিভাবে আমার একাউন্টের পাসওয়ার্ড রিসেট করবো?",
+    "answer": "লগইন পেজে ‘Forgot Password’ ক্লিক করে ইমেইল বা ফোন নম্বর দিয়ে পাসওয়ার্ড রিসেট করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Bet কেমনভাবে প্লেস করবো?",
+    "answer": "আপনার পছন্দের ম্যাচ বা গেম সিলেক্ট করে বাজি দিন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Withdraw er jonno minimum amount koto?",
+    "answer": "সাধারণত সাইট অনুযায়ী ৫০০ টাকা থেকে শুরু হয়।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "কেন আমার deposit টাকা reflect করছে না?",
+    "answer": "ইন্টারনেট সংযোগ বা পেমেন্ট গেটওয়ে সমস্যা থাকতে পারে, সাপোর্টে জানান।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Live betting er jonno ki extra charge ase?",
+    "answer": "না, লাইভ বেটিংয়ে কোনো অতিরিক্ত চার্জ থাকে না।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Casino games khelte ki legal?",
+    "answer": "বাংলাদেশে অনলাইন ক্যাসিনোর আইনি অবস্থা স্পষ্ট না, সাবধানে ব্যবহার করুন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Referral program er advantage ki?",
+    "answer": "বন্ধুকে রেফার করলে আপনি ও আপনার বন্ধু উভয়েই বোনাস পাবেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "Bet cancel kora jai naki?",
+    "answer": "সাধারণত বেট দেওয়ার পর বাতিল করা যায় না।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Lottery te kibhabe part nite pari?",
+    "answer": "সাইটে লগইন করে লটারির টিকিট কিনুন এবং ড্রয়ের অপেক্ষা করুন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "আমার একাউন্ট hack হয়েছে, কি করব?",
+    "answer": "অতি দ্রুত পাসওয়ার্ড পরিবর্তন করুন এবং কাস্টমার সাপোর্টে জানান।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "কেন আমার withdrawal delay হয়েছে?",
+    "answer": "ব্যাংক প্রসেসিং বা ডকুমেন্ট যাচাইয়ের কারণে বিলম্ব হতে পারে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Bonus withdraw korar niyom ki?",
+    "answer": "বোনাসের শর্ত পূরণ করতে হবে, তারপরে টাকা উত্তোলন করা যাবে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Mobile app ki ase?",
+    "answer": "অবশ্যই, অফিসিয়াল ওয়েবসাইট থেকে মোবাইল অ্যাপ ডাউনলোড করতে পারবেন।",
+    "categoryId": 19,
+    "categoryName": "App_Mobile"
+  },
+  {
+    "question": "Betting odds keno change hoy?",
+    "answer": "ম্যাচের অবস্থান ও বাজার চাহিদা অনুযায়ী অডস পরিবর্তিত হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কিভাবে account deactivate করবো?",
+    "answer": "সাপোর্ট টিমকে ইমেইল পাঠিয়ে অ্যাকাউন্ট ডিএক্টিভেশনের জন্য আবেদন করুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "Deposit korar por balance update korte koto time lage?",
+    "answer": "সাধারণত ৫ থেকে ৩০ মিনিটের মধ্যে ব্যালেন্স আপডেট হয়।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Live casino khela shikhbo kothay?",
+    "answer": "সাইটের টিউটোরিয়াল বা ডেমো মোড থেকে শেখার সুযোগ পাবেন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "আমি কি একসাথে দুইটা ডিভাইসে লগইন করতে পারি?",
+    "answer": "হ্যাঁ, কিন্তু নিরাপত্তার জন্য সতর্ক থাকুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "My bet rejected hoyeche, karon ki?",
+    "answer": "বেট সময়ের বাইরে বা সিস্টেম সমস্যা হলে বাতিল হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Betting site er support kemon?",
+    "answer": "সাপোর্ট টিম দ্রুত এবং ব্যবহারবান্ধব।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Withdraw korar jonno ki kono limit ache?",
+    "answer": "সাইট অনুযায়ী দৈনিক বা মাসিক উত্তোলনের সীমা থাকে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Betting site ki Bangladesh e legal?",
+    "answer": "বাংলাদেশে অনলাইন বেটিং আইনগতভাবে স্পষ্ট নয়, সাবধানে ব্যবহার করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "ক্যাসিনো গেমে জেতার সম্ভাবনা কত?",
+    "answer": "সব গেমে সম্ভাবনা থাকে, কিন্তু ঝুঁকি ও নির্ভর করে ভাগ্য ও কৌশলের উপর।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Lottery ticket kothay kinbo?",
+    "answer": "সাইটের লটারির বিভাগ থেকে সহজেই টিকিট ক্রয় করা যায়।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "Account verify korar process ki?",
+    "answer": "ডকুমেন্ট আপলোড করে ও কাস্টমার সাপোর্টের নির্দেশনা মেনে একাউন্ট ভেরিফাই করুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "Betting er jonno koto taka dorkar?",
+    "answer": "আপনার বাজেট অনুযায়ী কম বা বেশি টাকা দিয়ে বেট শুরু করতে পারেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Kivabe ami bonus pabo?",
+    "answer": "অফার পেজ থেকে প্রোমো কোড ব্যবহার করে বা স্বয়ংক্রিয়ভাবে বোনাস পান।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "My bet confirmed kina?",
+    "answer": "‘My Bets’ সেকশনে গিয়ে বেটের স্ট্যাটাস চেক করুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Bet cancel korar kono system ase?",
+    "answer": "সাধারণ বেট বাতিল হয় না, লাইভ বেটিংয়ের ক্ষেত্রে শর্ত ভিন্ন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Withdraw korar somoy ki kono fee ase?",
+    "answer": "সাধারণত সাইট থেকে কোনো অতিরিক্ত ফি নেয়া হয় না।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Casino game er odds kemon?",
+    "answer": "RNG ভিত্তিক গেমের odds নিরপেক্ষ ও ফেয়ার হয়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "কেন আমার deposit fail হয়?",
+    "answer": "ইন্টারনেট সমস্যা বা পেমেন্ট গেটওয়ে ত্রুটির কারণে হতে পারে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Lottery result কিভাবে দেখতে পারি?",
+    "answer": "সাইটের ‘Lottery Results’ পেজ থেকে ফলাফল দেখুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Betting er jonno ki mobile app ase?",
+    "answer": "হ্যাঁ, অফিসিয়াল সাইট থেকে মোবাইল অ্যাপ ডাউনলোড করতে পারবেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Casino khelte ki শিখতে হবে?",
+    "answer": "গেমের নিয়ম বুঝে ও ডেমো মোডে অনুশীলন করে শিখতে পারেন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Referral bonus কিভাবে পাবো?",
+    "answer": "রেফারেল লিঙ্ক দিয়ে বন্ধু রেজিস্ট্রেশন করলে বোনাস পাবেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "Account block hole কি করব?",
+    "answer": "কাস্টমার সাপোর্টের সাথে যোগাযোগ করে ব্লকিংয়ের কারণ জানুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "Betting site er security system kemon?",
+    "answer": "এসএসএল এনক্রিপশন ও আধুনিক নিরাপত্তা ব্যবস্থার মাধ্যমে সুরক্ষা দেয়া হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Betting e ki profit guaranteed?",
+    "answer": "না, বেটিং ঝুঁকিপূর্ণ এবং লাভের নিশ্চয়তা নেই।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Kivabe ami withdraw request track korbo?",
+    "answer": "অ্যাকাউন্টের উইথড্রয়াল হিস্ট্রি থেকে ট্র্যাক করতে পারবেন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Casino গেমে কি cheat করা যায়?",
+    "answer": "না, ভালো সাইটে গেমগুলি RNG প্রযুক্তি ব্যবহার করে ফেয়ার হয়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Betting e ki kono hidden charge ase?",
+    "answer": "সাধারণত না, তবে শর্তাবলী ভালো করে পড়ুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Betting site e ki 24/7 support ase?",
+    "answer": "হ্যাঁ, অধিকাংশ সাইট ২৪/৭ কাস্টমার সাপোর্ট দেয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কেন আমার withdrawal pending আছে?",
+    "answer": "ডকুমেন্ট যাচাই বা পেমেন্ট প্রসেসিংয়ে বিলম্ব হতে পারে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Lottery টিকিট কবে ড্র হয়?",
+    "answer": "প্রতিদিন নির্দিষ্ট সময়ে ড্র অনুষ্ঠিত হয়, সাইটে সময় দেখানো থাকে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Betting rules কোথায় পাবো?",
+    "answer": "সাইটের ‘Terms & Conditions’ বা ‘Rules’ সেকশনে বিস্তারিত আছে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Casino game এ কি বাজি সীমা আছে?",
+    "answer": "হ্যাঁ, প্রতিটি গেমের নিজস্ব বাজি লিমিট থাকে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Betting site er license ache?",
+    "answer": "বিশ্বস্ত সাইটে লাইসেন্সের তথ্য ফুটারে বা ‘About Us’ পেজে পাওয়া যায়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমি কিভাবে নতুন অ্যাকাউন্ট খুলব?",
+    "answer": "সাইটে গিয়ে রেজিস্ট্রেশন ফর্ম পূরণ করে নতুন অ্যাকাউন্ট খুলতে পারেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Betting এ টাকা হারালে কি করব?",
+    "answer": "হারা স্বাভাবিক, তবে সচেতন বাজি দিয়ে হঠাৎ বড় ক্ষতি থেকে বাঁচুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কেন আমার deposit সফল হয়নি?",
+    "answer": "পেমেন্ট গেটওয়ে সমস্যা বা ব্যাংক ইস্যু থাকতে পারে, সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Casino গেমে কিভাবে জেতার সুযোগ বাড়াব?",
+    "answer": "গেমের নিয়ম শিখে ও কৌশল প্রয়োগ করে জেতার সুযোগ বাড়ানো যায়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Bet cancel করার কোনো অপশন আছে?",
+    "answer": "সাধারণ বেট বাতিল করা যায় না, লাইভ বেটিংয়ে শর্ত ভিন্ন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Referral program এ কিভাবে অংশ নিব?",
+    "answer": "বন্ধুকে রেফার করে তার রেজিস্ট্রেশন নিশ্চিত করলে বোনাস পাবেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "Lottery টিকিট কিভাবে কিনবো?",
+    "answer": "লটারির বিভাগ থেকে লগইন করে সহজে টিকিট ক্রয় করতে পারবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Withdraw er জন্য কি ডকুমেন্ট লাগবে?",
+    "answer": "সাধারণত আইডি প্রুফ ও ফোন নম্বর ভেরিফিকেশন প্রয়োজন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "My bet accepted kina?",
+    "answer": "‘My Bets’ থেকে বেট স্ট্যাটাস চেক করতে পারেন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Deposit করার পর ব্যালেন্স না বাড়লে কি করব?",
+    "answer": "৩০ মিনিটের বেশি হলে কাস্টমার সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Casino গেমের নিয়ম কোথায় পাবো?",
+    "answer": "প্রতিটি গেম পেজে বিস্তারিত নিয়ম দেওয়া থাকে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "কেন আমার withdrawal request rejected?",
+    "answer": "শর্ত পূরণ না করলে অথবা ডকুমেন্ট না থাকলে বাতিল হতে পারে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Mobile থেকে কিভাবে খেলবো?",
+    "answer": "অফিসিয়াল অ্যাপ বা মোবাইল ব্রাউজার থেকে লগইন করে খেলতে পারবেন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Betting এর জন্য কতো টাকা লাগবে?",
+    "answer": "নিজের বাজেট অনুযায়ী যে কোনো পরিমাণ দিয়ে বেট শুরু করা যায়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Lottery result কবে প্রকাশ হয়?",
+    "answer": "প্রতিদিন নির্দিষ্ট সময়ে ফলাফল প্রকাশ করা হয়।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Account hack হলে কি করব?",
+    "answer": "পাসওয়ার্ড দ্রুত পরিবর্তন করুন এবং সাপোর্টে জানান।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "Bonus কিভাবে পাওয়া যায়?",
+    "answer": "অফারের শর্ত মেনে বোনাস কোড প্রয়োগ করলে পাওয়া যায়।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "Withdraw এর জন্য কতো সময় লাগে?",
+    "answer": "সাধারণত ২৪ থেকে ৭২ ঘণ্টার মধ্যে টাকা আসে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "কেন আমার একাউন্ট ব্লক হয়েছে?",
+    "answer": "নিয়ম লঙ্ঘন বা নিরাপত্তার কারণে ব্লক হতে পারে।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "কাস্টমার সাপোর্ট কি ২৪/৭ থাকে?",
+    "answer": "হ্যাঁ, অধিকাংশ সাইট ২৪ ঘণ্টা সাপোর্ট দেয়।",
+    "categoryId": 9,
+    "categoryName": "Customer_Support"
+  },
+  {
+    "question": "Live betting কি ঝুঁকিপূর্ণ?",
+    "answer": "হ্যাঁ, তাই সতর্কতার সাথে বেট দিন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কেন আমার bet reject হয়েছে?",
+    "answer": "বেট সময়সীমা শেষ বা সিস্টেম ইস্যুর জন্য বাতিল হতে পারে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Lottery টিকিটের দাম কত?",
+    "answer": "সাধারণত ১০ থেকে ৫০০ টাকা পর্যন্ত টিকিট পাওয়া যায়।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "কিভাবে পাসওয়ার্ড রিসেট করব?",
+    "answer": "লগইন পেজ থেকে ‘Forgot Password’ অপশন ব্যবহার করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Casino game demo mode আছে কি?",
+    "answer": "অনেক সাইটে বিনামূল্যে ডেমো মোডে খেলা যায়।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Betting site এর license আছে?",
+    "answer": "বিশ্বস্ত সাইটের ফুটারে লাইসেন্সের তথ্য পাওয়া যায়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Referral bonus কিভাবে নিব?",
+    "answer": "রেফারেল লিঙ্ক দিয়ে বন্ধু রেজিস্ট্রেশন করলে বোনাস পাবেন।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "Withdraw করার জন্য কি কোনো ফি নেয়?",
+    "answer": "সাধারণত সাইট থেকে কোনো অতিরিক্ত ফি নেয়া হয় না।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Betting odds কেন পরিবর্তিত হয়?",
+    "answer": "ম্যাচের অবস্থা ও বাজারের চাহিদা অনুযায়ী পরিবর্তিত হয়।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Mobile app কোথা থেকে ডাউনলোড করবো?",
+    "answer": "অফিসিয়াল ওয়েবসাইট বা প্লে স্টোর থেকে ডাউনলোড করুন।",
+    "categoryId": 19,
+    "categoryName": "App_Mobile"
+  },
+  {
+    "question": "কেন আমার withdrawal পেন্ডিং আছে?",
+    "answer": "ডকুমেন্ট যাচাই বা ব্যাংক প্রসেসিংয়ে বিলম্ব হতে পারে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Lottery ফলাফল কিভাবে দেখব?",
+    "answer": "সাইটের ‘Lottery Results’ পেজ থেকে ফলাফল দেখুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "Casino গেমে জেতার সম্ভাবনা কত?",
+    "answer": "সব গেমে ভাগ্য ও কৌশলের ওপর নির্ভর করে।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Bet cancel করা যায় কি?",
+    "answer": "সাধারণ বেট বাতিল করা যায় না, লাইভ বেটিংয়ের ক্ষেত্রে শর্ত থাকে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Account verify করতে কি লাগে?",
+    "answer": "ডকুমেন্ট আপলোড করে সাপোর্টের নির্দেশনা মেনে ভেরিফাই করুন।",
+    "categoryId": 6,
+    "categoryName": "Account_Verification"
+  },
+  {
+    "question": "Betting এ লাভের নিশ্চয়তা আছে?",
+    "answer": "না, সবসময় ঝুঁকি থাকে, তাই সতর্ক থাকুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "কিভাবে withdraw request ট্র্যাক করব?",
+    "answer": "অ্যাকাউন্টের উইথড্রয়াল হিস্ট্রি থেকে ট্র্যাক করতে পারবেন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Betting site এ কি গোপন চার্জ আছে?",
+    "answer": "সাধারণত নয়, তবে শর্তাবলী ভালো করে পড়ুন।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "Casino গেম কি ফেয়ার?",
+    "answer": "লাইসেন্সপ্রাপ্ত সাইটের গেম ফেয়ার এবং নিরাপদ।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Live casino কিভাবে খেলবো?",
+    "answer": "লাইভ ক্যাসিনো সেকশনে গিয়ে পছন্দের গেম সিলেক্ট করুন।",
+    "categoryId": 10,
+    "categoryName": "Casino_Games"
+  },
+  {
+    "question": "Betting limits কত?",
+    "answer": "সাইট অনুযায়ী দৈনিক বা গেম ভিত্তিক লিমিট থাকে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Mobile থেকে withdraw করা যায়?",
+    "answer": "অবশ্যই, মোবাইল অ্যাপ বা ব্রাউজার থেকে withdraw করা যায়।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Betting site এর সিকিউরিটি কেমন?",
+    "answer": "এসএসএল এনক্রিপশন ও আধুনিক নিরাপত্তা ব্যবস্থার মাধ্যমে সুরক্ষিত।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমার deposit কেন pending দেখাচ্ছে?",
+    "answer": "আপনার deposit পেন্ডিং থাকার কারণ হতে পারে ট্রাঞ্জেকশন প্রক্রিয়া সম্পূর্ণ না হওয়া। দয়া করে ট্রাঞ্জেকশন আইডি সহ আমাদের কাস্টমার সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Deposit পেন্ডিং থেকে কিভাবে রিলিজ করবো?",
+    "answer": "ট্রাঞ্জেকশন আইডি দিয়ে আমাদের সাপোর্ট টিমকে জানালে দ্রুত পেন্ডিং সমস্যা সমাধান করা হবে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Deposit pending আছে, টাকাটা যাবে কি?",
+    "answer": "যতক্ষন না ট্রাঞ্জেকশন কনফার্ম হয় ততক্ষণ টাকা অ্যাকাউন্টে যুক্ত হবে না, ট্রাঞ্জেকশন আইডি দিয়ে সাপোর্টে জানালে দ্রুত কাজ হবে।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Deposit pending হলে কি করবো?",
+    "answer": "ট্রাঞ্জেকশন আইডি সংগ্রহ করে আমাদের কাস্টমার সাপোর্টে জানিয়ে দ্রুত সমাধান নিন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Deposit pending দেখাচ্ছে, কত সময় লাগবে?",
+    "answer": "সাধারণত ১-২৪ ঘণ্টার মধ্যে প্রসেস হয়, বিলম্ব হলে ট্রাঞ্জেকশন আইডি দিয়ে সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "আমার একাউন্টে কোন প্রোমোশোন আছে কি?",
+    "answer": "আপনার একাউন্টে চলমান প্রোমোশনের তথ্য জানতে লগইন করে প্রোমোশনের পেজ চেক করুন অথবা কাস্টমার সাপোর্টে যোগাযোগ করুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "প্রোমোশোন কীভাবে ক্লেইম করব?",
+    "answer": "প্রোমোশনের শর্তানুযায়ী প্রোমো কোড ব্যবহার করুন অথবা স্বয়ংক্রিয়ভাবে প্রোমোশোন পেয়ে যাবেন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "প্রোমোশোন এর জন্য কতো টাকা লাগবে?",
+    "answer": "প্রতিটি প্রোমোশনের জন্য আলাদা শর্ত থাকে, বিস্তারিত প্রোমো পেজে দেখতে পারবেন।",
+    "categoryId": 0,
+    "categoryName": "Uncategorized"
+  },
+  {
+    "question": "আমি কি একাধিক প্রোমোশোন নিতে পারি?",
+    "answer": "সাধারণত একই সময়ে একাধিক প্রোমোশোন নিতে দেয়া হয় না, শর্তাবলী ভালো করে দেখুন।",
+    "categoryId": 14,
+    "categoryName": "General_Queries"
+  },
+  {
+    "question": "প্রোমোশোন এর বোনাস কবে অ্যাকাউন্টে আসবে?",
+    "answer": "প্রোমোশোন ক্লেইম করার পর সাধারণত তা কিছু সময়ের মধ্যে আপনার ব্যালেন্সে যুক্ত হবে।",
+    "categoryId": 7,
+    "categoryName": "Bonus_Referral"
+  },
+  {
+    "question": "Turnover কি?",
+    "answer": "Turnover হলো আপনার মোট বাজি বা বেটের পরিমাণ, যা প্রোমো বোনাস উত্তোলনের জন্য পূরণ করতে হয়।",
+    "categoryId": 2,
+    "categoryName": "Turnover_Balance"
+  },
+  {
+    "question": "Turnover কতটুকু করতে হবে?",
+    "answer": "প্রত্যেক প্রোমোশনের শর্ত অনুযায়ী নির্দিষ্ট একটি turnover পূরণ করতে হয়, যা প্রোমো পেজে উল্লেখ থাকে।",
+    "categoryId": 2,
+    "categoryName": "Turnover_Balance"
+  },
+  {
+    "question": "Turnover কিভাবে চেক করবো?",
+    "answer": "আপনার একাউন্টে লগইন করে ‘My Bonuses’ অথবা ‘Turnover Status’ থেকে দেখতে পারবেন।",
+    "categoryId": 2,
+    "categoryName": "Turnover_Balance"
+  },
+  {
+    "question": "Turnover পূরণ না হলে কি withdrawal করা যাবে?",
+    "answer": "না, প্রোমো বোনাস থেকে টাকা উত্তোলনের জন্য turnover পূরণ বাধ্যতামূলক।",
+    "categoryId": 1,
+    "categoryName": "Withdrawal_Deposit_Rules"
+  },
+  {
+    "question": "Turnover এ কোন গেম গুলো গন্য হবে?",
+    "answer": "সাধারণত স্পোর্টস বেটিং, ক্যাসিনো এবং লাইভ গেমের বেট গুলো turnover হিসেবে গণ্য হয়, বিস্তারিত শর্তাবলী দেখুন।",
+    "categoryId": 2,
+    "categoryName": "Turnover_Balance"
+  },
+  {
+    "question": "বেট সেটেল করতে অনেক দেরি হচ্ছে কেন?",
+    "answer": "বেট সেটেল করার সময় কিছু প্রযুক্তিগত বা ম্যাচের ফলাফল নিশ্চিতকরণের কারণে দেরি হতে পারে। দয়া করে ধৈর্য ধরুন, দ্রুত সেটেল করার চেষ্টা করা হচ্ছে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "আমার বেট সেটেল হয়নি, আমি কি করব?",
+    "answer": "যদি বেট সেটেল না হয়, আমাদের কাস্টমার সাপোর্টকে বেট আইডি ও ম্যাচ ডিটেইলস সহ জানান, আমরা দ্রুত সাহায্য করবো।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেট সেটেল দেরির জন্য অভিযোগ কোথায় করব?",
+    "answer": "আমাদের লাইভ চ্যাট বা ইমেইল সাপোর্টে বিস্তারিত জানান, আপনার সমস্যা দ্রুত সমাধানের জন্য কাজ করা হবে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেট সেটেল দেরি হলে কি টাকা হারাতে হয়?",
+    "answer": "না, বেট সঠিকভাবে সেটেল না হলে আপনার টাকা সিস্টেমে থাকে, সমস্যার সমাধানের পর সেটেল করা হবে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  },
+  {
+    "question": "বেট সেটেল দেরি হলে কি আর নতুন বেট দেয়া যাবে?",
+    "answer": "সাধারণত বেট সেটেল না হলে নতুন বেট দেয়া যেতে পারে, তবে সেটেল হওয়া বেটের উপর নির্ভর করে।",
+    "categoryId": 4,
+    "categoryName": "Betting_Process"
+  }
+]

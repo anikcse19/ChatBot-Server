@@ -1,12 +1,20 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 const { Types } = mongoose;
+
 const MessageSchema = new mongoose.Schema({
   sender: {
     type: String,
-    enum: ["user", "admin", "bot"], // ✅ Valid enum values
+    enum: ["user", "admin", "bot"], // ✅ Only valid values
     required: true,
   },
-  text: String,
+  text: {
+    type: String,
+    default: null, // allow empty if it's an image
+  },
+  imageUrl: {
+    type: String, // path or URL to the stored image
+    default: null,
+  },
   timestamp: { type: Date, default: Date.now },
 });
 
@@ -19,4 +27,4 @@ const ConversationSchema = new mongoose.Schema({
   createdAt: { type: Date, default: Date.now },
 });
 
-module.exports = mongoose.model('Conversation', ConversationSchema);
+module.exports = mongoose.model("Conversation", ConversationSchema);

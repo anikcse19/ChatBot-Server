@@ -1,5 +1,8 @@
+// adminController.js
 const Conversation = require("../models/Conversation");
 const User = require("../models/User");
+const fs = require("fs");
+const path = require("path");
 
 // admin login--modified
 exports.adminActive = async (req, res) => {
@@ -34,6 +37,58 @@ exports.adminActive = async (req, res) => {
   }
 };
 
+<<<<<<< HEAD
+=======
+// image reply
+exports.adminImageReply = async (req, res) => {
+  const { sessionId, imageData, fileName } = req.body;
+
+  try {
+    const matches = imageData.match(/^data:image\/(\w+);base64,(.+)$/);
+    if (!matches) {
+      return res.status(400).json({ error: "Invalid image data" });
+    }
+
+    const ext = matches[1];
+    const base64Data = matches[2];
+    const finalFileName = fileName || `admin_img_${Date.now()}.${ext}`;
+    const filePath = path.join(__dirname, "../public", finalFileName);
+
+    fs.writeFileSync(filePath, base64Data, "base64");
+
+    const conversation = await Conversation.findOne({ sessionId });
+    if (!conversation)
+      return res.status(404).json({ error: "Conversation not found" });
+
+    const imageMessage = {
+      sender: "admin",
+      type: "image",
+      url: `/${finalFileName}`,
+      timestamp: new Date(),
+    };
+
+    conversation.messages.push(imageMessage);
+    await conversation.save();
+
+    // Emit to user
+    const io = req.app.get("io");
+    if (io) {
+      io.to(sessionId).emit("admin-reply", {
+        sessionId,
+        type: "image",
+        url: imageMessage.url,
+      });
+    }
+
+    res.json({ status: "image_sent", url: imageMessage.url });
+  } catch (error) {
+    console.error("Error sending admin image reply:", error);
+    res.status(500).json({ error: "Server error" });
+  }
+};
+
+
+>>>>>>> 0a5f54483b69848c1fafa4359ab92ada06023611
 // admin reply controller in backend
 exports.adminReply = async (req, res) => {
   const { sessionId, message } = req.body;
