@@ -19,19 +19,26 @@ const userRoutes = require("./routes/userRoutes");
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5174","http://127.0.0.1:5500"],
+    origin: [
+      "http://localhost:5173",
+      "http://localhost:5174",
+      "http://127.0.0.1:5500",
+    ],
     credentials: true,
   })
 );
 
 // Middleware
-app.use(express.json());
+app.use(express.json({ limit: "50mb" }));
+app.use(express.urlencoded({ limit: "50mb", extended: true })); // Increase URL-encoded limit
+
 app.use(express.static("public"));
 // API Routes
 app.use("/api/bot", botRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/conversation", messageRoutes);
 app.use("/api/users", userRoutes);
+app.use("/uploads", express.static(path.join(__dirname, "public/uploads")));
 
 const users = new Map(); // sessionId -> socket.id
 

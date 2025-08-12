@@ -4,6 +4,7 @@ const User = require("../models/User");
 const { generateBotReply } = require("../utils/botReply");
 const fs = require("fs");
 const path = require("path");
+
 exports.handleConversation = async (req, res) => {
   const { userId, sessionId, message } = req.body;
   // Get socket.io instance
@@ -51,7 +52,7 @@ exports.handleConversation = async (req, res) => {
     return res.json({ status: "waiting_for_admin" });
   } else {
     // 3. Use bot to generate auto reply
-    const botReply = generateBotReply(message);
+    const botReply = await generateBotReply(message);
 
     const botMessage = {
       sender: "bot",
@@ -84,13 +85,17 @@ exports.handleImageMessage = async (req, res) => {
     const ext = matches[1];
     const base64Data = matches[2];
     const finalFileName = fileName || `img_${Date.now()}.${ext}`;
-    const filePath = path.join(__dirname, "../public", finalFileName);
+    const filePath = path.join(__dirname, "../public/uploads", finalFileName);
     console.log(`Image saved: ${finalFileName}`);
+
+    // Ensure folder exists before saving
+    fs.mkdirSync(path.join(__dirname, "../public/uploads"), {
+      recursive: true,
+    });
     // Save image
     fs.writeFileSync(filePath, base64Data, "base64");
-    const imageUrl = `${
-      process.env.BASE_URL || "http://localhost:5000"
-    }/uploads/${fileName}`;
+    const imageUrl = `http://localhost:5000/uploads/${finalFileName}`;
+
     // Find or create conversation
     let conversation = await Conversation.findOne({ sessionId });
     const user = await User.findById(userId);
