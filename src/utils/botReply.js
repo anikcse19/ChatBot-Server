@@ -105,13 +105,13 @@ async function generateBotReply(userMessage) {
 
   const questions = staticFaqs.map((f) => f.question);
   if (!questions.length) return null;
-
+console.log("user message ", userMessage)
   const matches = stringSimilarity.findBestMatch(userMessage, questions);
+  console.log("match ",matches)
   const bestMatch = matches.bestMatch;
 
   if (bestMatch.rating > 0.6) {
     const matched = staticFaqs.find((f) => f.question === bestMatch.target);
-    console.log("matched", matched);
     const detectedCategory = matched.categoryName;
     if (detectedCategory) {
       // Map detected category to its handler
@@ -148,7 +148,7 @@ async function generateBotReply(userMessage) {
     return matched?.answer || null;
   }
 
-  return null;
+  return "আপনার প্রশ্নটি বুঝতে পারিনি। অনুগ্রহ করে আবার প্রশ্ন করুন।";
 }
 
 module.exports = { generateBotReply };

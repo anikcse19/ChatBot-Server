@@ -1,4 +1,5 @@
 // adminController.js
+const { baseUrl } = require("../config/baseApi");
 const Conversation = require("../models/Conversation");
 const User = require("../models/User");
 const fs = require("fs");
@@ -40,7 +41,7 @@ exports.adminActive = async (req, res) => {
 // image reply
 exports.adminImageReply = async (req, res) => {
   const { sessionId, imageData, fileName } = req.body;
-
+  console.log("rrr", imageData);
   try {
     const matches = imageData.match(/^data:image\/(\w+);base64,(.+)$/);
     if (!matches) {
@@ -53,7 +54,7 @@ exports.adminImageReply = async (req, res) => {
     const filePath = path.join(__dirname, "../public", finalFileName);
 
     fs.writeFileSync(filePath, base64Data, "base64");
-
+    const imageUrl = `${baseUrl}/uploads/${finalFileName}`;
     const conversation = await Conversation.findOne({ sessionId });
     if (!conversation)
       return res.status(404).json({ error: "Conversation not found" });
@@ -61,7 +62,7 @@ exports.adminImageReply = async (req, res) => {
     const imageMessage = {
       sender: "admin",
       type: "image",
-      url: `/${finalFileName}`,
+      imageUrl: imageUrl,
       timestamp: new Date(),
     };
 
@@ -74,11 +75,11 @@ exports.adminImageReply = async (req, res) => {
       io.to(sessionId).emit("admin-reply", {
         sessionId,
         type: "image",
-        url: imageMessage.url,
+        imageUrl: imageUrl,
       });
     }
 
-    res.json({ status: "image_sent", url: imageMessage.url });
+    res.json({ status: "image_sent", imageUrl: imageUrl });
   } catch (error) {
     console.error("Error sending admin image reply:", error);
     res.status(500).json({ error: "Server error" });

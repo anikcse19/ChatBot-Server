@@ -1,78 +1,104 @@
-export async function handleAccountIssues(userMessage) {
+// src/utils/CategorizedFunctions.js
+
+async function handleAccountIssues(userMessage) {
   return false;
 }
 
-export async function handleAccountVerification(userMessage) {
+async function handleAccountVerification(userMessage) {
   return false;
 }
 
-export async function handleAppMobile(userMessage) {
+async function handleAppMobile(userMessage) {
   return false;
 }
 
-export async function handleBasicQuery(userMessage) {
+async function handleBasicQuery(userMessage) {
   return false;
 }
 
-export async function handleBettingProcess(userMessage) {
+async function handleBettingProcess(userMessage) {
   return false;
 }
 
-export async function handleBonusReferral(userMessage) {
+async function handleBonusReferral(userMessage) {
   return false;
 }
 
-export async function handleCampaignOffers(userMessage) {
+async function handleCampaignOffers(userMessage) {
   return false;
 }
 
-export async function handleCasinoGames(userMessage) {
+async function handleCasinoGames(userMessage) {
   return false;
 }
 
-export async function handleCustomerSupport(userMessage) {
+async function handleCustomerSupport(userMessage) {
   return false;
 }
 
-export async function handleDeviceIssues(userMessage) {
+async function handleDeviceIssues(userMessage) {
   return false;
 }
 
-export async function handleGeneralQueries(userMessage) {
+async function handleGeneralQueries(userMessage) {
   return false;
 }
 
-export async function handleLegalPolicy(userMessage) {
+async function handleLegalPolicy(userMessage) {
   return false;
 }
 
-export async function handleLoginProblems(userMessage) {
+async function handleLoginProblems(userMessage) {
   return false;
 }
 
-export async function handlePaymentIssues(userMessage) {
+async function handlePaymentIssues(userMessage) {
   return false;
 }
 
-export async function handlePaymentMethods(userMessage) {
+async function handlePaymentMethods(userMessage) {
   return false;
 }
 
-export async function handleSportsBetting(userMessage) {
+async function handleSportsBetting(userMessage) {
   return false;
 }
 
-export async function handleTimeLimits(userMessage) {
+async function handleTimeLimits(userMessage) {
   return false;
 }
 
-export async function handleTurnoverBalance(userMessage) {
-  return false;
-}
-export async function handleUncategorized(userMessage) {
+async function handleTurnoverBalance(userMessage) {
   return false;
 }
 
-export async function handleWithdrawalDepositRules(userMessage) {
+async function handleUncategorized(userMessage) {
   return false;
 }
+
+async function handleWithdrawalDepositRules(userMessage) {
+  return false;
+}
+
+module.exports = {
+  handleAccountIssues,
+  handleAccountVerification,
+  handleAppMobile,
+  handleBasicQuery,
+  handleBettingProcess,
+  handleBonusReferral,
+  handleCampaignOffers,
+  handleCasinoGames,
+  handleCustomerSupport,
+  handleDeviceIssues,
+  handleGeneralQueries,
+  handleLegalPolicy,
+  handleLoginProblems,
+  handlePaymentIssues,
+  handlePaymentMethods,
+  handleSportsBetting,
+  handleTimeLimits,
+  handleTurnoverBalance,
+  handleUncategorized,
+  handleWithdrawalDepositRules,
+};

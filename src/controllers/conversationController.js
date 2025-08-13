@@ -1,4 +1,5 @@
 // conversationController.js
+const { baseUrl } = require("../config/baseApi");
 const Conversation = require("../models/Conversation");
 const User = require("../models/User");
 const { generateBotReply } = require("../utils/botReply");
@@ -94,7 +95,7 @@ exports.handleImageMessage = async (req, res) => {
     });
     // Save image
     fs.writeFileSync(filePath, base64Data, "base64");
-    const imageUrl = `http://localhost:5000/uploads/${finalFileName}`;
+    const imageUrl = `${baseUrl}/uploads/${finalFileName}`;
 
     // Find or create conversation
     let conversation = await Conversation.findOne({ sessionId });
