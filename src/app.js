@@ -16,6 +16,7 @@ const botRoutes = require("./routes/botRoutes");
 const adminRoutes = require("./routes/adminRoutes");
 const messageRoutes = require("./routes/messageRoutes");
 const userRoutes = require("./routes/userRoutes");
+const ticketRoutes =require("./routes/ticketRoutes")
 
 app.use(
   cors({
@@ -38,6 +39,7 @@ app.use("/api/bot", botRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/conversation", messageRoutes);
 app.use("/api/users", userRoutes);
+app.use("/api/ticket", ticketRoutes);
 app.use("/uploads", express.static(path.join(__dirname, "public/uploads")));
 
 const users = new Map(); // sessionId -> socket.id

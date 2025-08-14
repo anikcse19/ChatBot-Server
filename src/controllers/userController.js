@@ -20,15 +20,7 @@ exports.createUser = async (req, res) => {
       email,
       role,
       sessionId,
-      // isOnline: role === "admin" ? !!isOnline : undefined,
     });
-
-    // const user = new User({
-    //   name,
-    //   email,
-    //   role,
-    //   isOnline: role === "admin" ? !!isOnline : undefined,
-    // });
 
     await user.save();
     res.status(201).json({ message: "User created", user });
