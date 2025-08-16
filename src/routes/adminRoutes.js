@@ -1,8 +1,11 @@
 const express = require('express');
 const router = express.Router();
 
-const { adminReply, getAllMessages,  adminStatus, adminActive, adminImageReply } = require('../controllers/adminController');
+const { adminReply, getAllMessages,  adminStatus, adminActive, adminImageReply, adminLogin} = require('../controllers/adminController');
+const { verifyAdmin } = require('../middleware/authMiddleware');
 // old
+router.post("/login",adminLogin);
+
 router.post("/reply", adminReply);
 router.post("/reply/image",adminImageReply);
 // new

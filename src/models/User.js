@@ -7,8 +7,8 @@ const UserSchema = new mongoose.Schema({
     enum: ["user", "admin"], // ✅ Valid enum values
     required: true,
   },
-  sessionId:String,
-  // isOnline: Boolean,
+  password: { type: String, required: true }, // added password
+  sessionId: String,
   createdAt: { type: Date, default: Date.now },
 });
 module.exports = mongoose.model("User", UserSchema);

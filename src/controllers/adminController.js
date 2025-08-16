@@ -4,8 +4,52 @@ const Conversation = require("../models/Conversation");
 const User = require("../models/User");
 const fs = require("fs");
 const path = require("path");
+const jwt = require("jsonwebtoken");
+const bcrypt = require("bcryptjs");
+
 
 // admin login--modified
+exports.adminLogin = async (req, res) => {
+  try {
+    const { email, password } = req.body;
+
+    if (!email || !password) {
+      return res.status(400).json({ error: "Email and password are required" });
+    }
+
+    const user = await User.findOne({ email });
+    if (!user) {
+      return res.status(404).json({ error: "User not found" });
+    }
+
+    if (user.role !== "admin") {
+      return res.status(403).json({ error: "Access denied. Admins only." });
+    }
+
+    // check password
+    const isMatch = await bcrypt.compare(password, user.password);
+    if (!isMatch) {
+      return res.status(401).json({ error: "Invalid password" });
+    }
+
+    const token = jwt.sign(
+      { id: user._id, email: user.email, role: user.role },
+      process.env.JWT_SECRET,
+      { expiresIn: "7d" }
+    );
+
+    return res.status(200).json({
+      message: "Admin login successful",
+      token,
+      user,
+    });
+  } catch (err) {
+    console.error("Admin login error:", err);
+    res.status(500).json({ error: "Server error" });
+  }
+};
+
+
 exports.adminActive = async (req, res) => {
   const { sessionId, isAdminOnline } = req.body;
   console.log("Admin active status update:", sessionId, isAdminOnline);
