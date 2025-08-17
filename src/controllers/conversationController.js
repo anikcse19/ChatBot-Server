@@ -8,7 +8,7 @@ const fs = require("fs");
 const path = require("path");
 
 exports.handleConversation = async (req, res) => {
-  const { userId, sessionId, message } = req.body;
+  const { userId, sessionId,adminId, message } = req.body;
   // Get socket.io instance
   // console.log("user id = ",userId)
   const user = await User.findOne({ _id: userId });
@@ -18,6 +18,7 @@ exports.handleConversation = async (req, res) => {
   if (!conversation) {
     conversation = await Conversation.create({
       sessionId,
+      adminId,
       userName: user.name,
       userId,
       isAdminOnline: false,
@@ -37,6 +38,7 @@ exports.handleConversation = async (req, res) => {
   if (io) {
     io.emit("user-message", {
       sessionId,
+      adminId,
       userId,
       message: userMessage.text,
     });
@@ -76,7 +78,7 @@ exports.handleConversation = async (req, res) => {
 };
 // image
 exports.handleImageMessage = async (req, res) => {
-  const { userId, sessionId, imageData, fileName } = req.body;
+  const { userId, sessionId, imageData, fileName, adminId } = req.body;
   console.log("rrr", imageData);
   try {
     const matches = imageData.match(/^data:image\/(\w+);base64,(.+)$/);
@@ -104,6 +106,7 @@ exports.handleImageMessage = async (req, res) => {
     if (!conversation) {
       conversation = await Conversation.create({
         sessionId,
+        adminId,
         userName: user?.name || "Unknown User",
         userId,
         isAdminOnline: false,
@@ -127,6 +130,7 @@ exports.handleImageMessage = async (req, res) => {
       io.to(sessionId).emit("user-message", {
         sessionId,
         userId,
+        adminId,
         type: "image",
         imageUrl: imageUrl,
       });
@@ -163,15 +167,33 @@ exports.getConversationBySessionId = async (req, res) => {
 
 // get all conversation
 
+// exports.getAllConversations = async (req, res) => {
+//   try {
+//     const conversation = await Conversation.find();
+
+//     if (!conversation) {
+//       return res.status(404).json({ error: "Conversations not exist" });
+//     }
+
+//     res.status(200).json({ conversation });
+//   } catch (err) {
+//     console.error("Error fetching conversation:", err);
+//     res.status(500).json({ error: "Server error" });
+//   }
+// };
 exports.getAllConversations = async (req, res) => {
   try {
-    const conversation = await Conversation.find();
+    const adminId = req.user.id; 
+    console.log("admin Id =",adminId)// or req.user._id, depending on your JWT payload
+    const conversations = await Conversation.find({ adminId });
 
-    if (!conversation) {
-      return res.status(404).json({ error: "Conversations not exist" });
+    if (!conversations || conversations.length === 0) {
+      return res
+        .status(404)
+        .json({ error: "No conversations found for this admin" });
     }
 
-    res.status(200).json({ conversation });
+    res.status(200).json({ conversations });
   } catch (err) {
     console.error("Error fetching conversation:", err);
     res.status(500).json({ error: "Server error" });

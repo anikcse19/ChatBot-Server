@@ -6,9 +6,7 @@ const fs = require("fs");
 const path = require("path");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
-
-
-// admin login--modified
+// admin login
 exports.adminLogin = async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -48,7 +46,6 @@ exports.adminLogin = async (req, res) => {
     res.status(500).json({ error: "Server error" });
   }
 };
-
 
 exports.adminActive = async (req, res) => {
   const { sessionId, isAdminOnline } = req.body;

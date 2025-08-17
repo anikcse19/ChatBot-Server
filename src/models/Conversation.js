@@ -20,6 +20,7 @@ const MessageSchema = new mongoose.Schema({
 
 const ConversationSchema = new mongoose.Schema({
   userId: Types.ObjectId,
+  adminId: String,
   sessionId: String,
   userName: String,
   isAdminOnline: Boolean,

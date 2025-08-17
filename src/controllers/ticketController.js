@@ -29,9 +29,9 @@ exports.createTicket = async (req, res) => {
         .json({ message: "All required fields must be provided" });
     }
     const existUser = await User.findOne({ _id: userId });
-    console.log("user",existUser)
+    console.log("user", existUser);
     const existConversation = await Conversation.findOne({
-      sessionId:linkedChatId,
+      sessionId: linkedChatId,
     });
     if (!existUser) {
       return res.status(409).json({ error: "User is not exists" });
@@ -64,11 +64,13 @@ exports.createTicket = async (req, res) => {
 };
 // get all trickect
 exports.getAllTickets = async (req, res) => {
+  const adminId = req.user.id; // Extracted from JWT middleware
   try {
-    const tickets = await Ticket.find();
+    // Fetch only tickets created by this admin
+    const tickets = await Ticket.find({ createdBy: adminId });
 
-    if (!tickets) {
-      return res.status(404).json({ error: "tickets not exist" });
+    if (!tickets || tickets.length === 0) {
+      return res.status(404).json({ error: "No tickets found for this admin" });
     }
 
     res.status(200).json({ tickets });
