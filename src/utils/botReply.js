@@ -105,9 +105,9 @@ async function generateBotReply(userMessage) {
 
   const questions = staticFaqs.map((f) => f.question);
   if (!questions.length) return null;
-console.log("user message ", userMessage)
+  console.log("user message ", userMessage);
   const matches = stringSimilarity.findBestMatch(userMessage, questions);
-  console.log("match ",matches)
+  console.log("match ", matches);
   const bestMatch = matches.bestMatch;
 
   if (bestMatch.rating > 0.6) {
@@ -141,14 +141,14 @@ console.log("user message ", userMessage)
       const handler = handlerMap[detectedCategory];
       if (handler) {
         const reply = await handler(userMessage);
-        console.log("handler reply", reply);
+        console.log("Handler reply", reply);
         if (reply) return reply;
       }
     }
     return matched?.answer || null;
   }
 
-  return "আপনার প্রশ্নটি বুঝতে পারিনি। অনুগ্রহ করে আবার প্রশ্ন করুন।";
+  return "আপনার প্রশ্নটি বুঝতে পারিনি। অনুগ্রহ করে আবার প্রশ্ন করুন।";
 }
 
 module.exports = { generateBotReply };
