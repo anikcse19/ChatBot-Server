@@ -15,6 +15,11 @@ const MessageSchema = new mongoose.Schema({
     type: String, // path or URL to the stored image
     default: null,
   },
+  repliedBy: {
+    type: mongoose.Schema.Types.ObjectId, // Who created the ticket (could be admin)
+    ref: "User",
+    default: null,
+  },
   timestamp: { type: Date, default: Date.now },
 });
 

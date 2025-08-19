@@ -4,10 +4,8 @@ const { findBestReply } = require("../utils/matcher");
 
 exports.handleMessage = async (req, res) => {
   const { userId, sessionId, name, email, messages } = req.body;
-
-  console.log(req.body);
   if (!userId || !sessionId || !messages || !Array.isArray(messages)) {
-    console.log(userId, sessionId, message);
+
     return res.status(400).json({
       error: "Missing required fields: userId, sessionId, or messages[]",
     });
@@ -33,7 +31,7 @@ exports.handleMessage = async (req, res) => {
   }
 
   const reply = await findBestReply(messages);
-  console.log(" reply ", reply);
+
   if (!reply) {
     if (name && email) {
       await Complaint.create({ name, email, messages });
@@ -68,8 +66,8 @@ exports.getAllBotMessages = async (req, res) => {
     );
 
     return res.status(200).json({ messages: botMessages });
-  } catch (error) {
-    console.error("Error fetching bot messages:", error);
-    return res.status(500).json({ error: "Internal server error" });
+  } catch (err) {
+    console.error("Error fetching bot messages:", err);
+    return res.status(500).json({ error: err?.message });
   }
 };

@@ -4,7 +4,7 @@ const UserSchema = new mongoose.Schema({
   email: String,
   role: {
     type: String,
-    enum: ["user", "admin"], // ✅ Valid enum values
+    enum: ["user", "admin", "sub-admin", "agent"], // ✅ Valid enum values
     required: true,
   },
   password: { type: String, required: true }, // added password
@@ -12,7 +12,7 @@ const UserSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId, // Who created the ticket (could be admin)
     ref: "User",
     required: function () {
-      return this.role === "user";
+      return ["user", "sub-admin", "agent"].includes(this.role);
     },
   },
   sessionId: String,

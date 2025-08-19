@@ -29,7 +29,7 @@ exports.createTicket = async (req, res) => {
         .json({ message: "All required fields must be provided" });
     }
     const existUser = await User.findOne({ _id: userId });
-    console.log("user", existUser);
+
     const existConversation = await Conversation.findOne({
       sessionId: linkedChatId,
     });
@@ -58,8 +58,8 @@ exports.createTicket = async (req, res) => {
       ticket: savedTicket,
     });
   } catch (err) {
-    console.error("Create Ticket error:", err);
-    return res.status(500).json({ error: "Server error" });
+
+    return res.status(500).json({ error: err?.message });
   }
 };
 // get all trickect
@@ -75,8 +75,8 @@ exports.getAllTickets = async (req, res) => {
 
     res.status(200).json({ tickets });
   } catch (err) {
-    console.error("Error fetching tickets:", err);
-    res.status(500).json({ error: "Server error" });
+
+    res.status(500).json({ error: err?.message });
   }
 };
 exports.updateTicketStatus = async (req, res) => {
@@ -99,7 +99,7 @@ exports.updateTicketStatus = async (req, res) => {
 
     return res.status(200).json({ message: "Ticket status updated", ticket });
   } catch (error) {
-    console.error("Error updating ticket status:", error);
-    return res.status(500).json({ message: "Server error" });
+ 
+    return res.status(500).json({ error: error?.message });
   }
 };
