@@ -19,9 +19,15 @@ exports.adminLogin = async (req, res) => {
     if (!user) {
       return res.status(404).json({ error: "User not found" });
     }
-
-    if (user.role !== "admin") {
-      return res.status(403).json({ error: "Access denied. Admins only." });
+    console.log(user.role);
+    if (
+      user.role !== "admin" &&
+      user.role !== "agent" &&
+      user.role !== "sub-admin"
+    ) {
+      return res
+        .status(403)
+        .json({ error: "Access denied. Admins, agents and sub-admin only." });
     }
 
     // check password
@@ -31,25 +37,29 @@ exports.adminLogin = async (req, res) => {
     }
 
     const token = jwt.sign(
-      { id: user._id, email: user.email, role: user.role },
+      {
+        id: user._id,
+        name: user?.name,
+        adminId: user?.adminId,
+        email: user.email,
+        role: user.role,
+      },
       process.env.JWT_SECRET,
       { expiresIn: "7d" }
     );
 
     return res.status(200).json({
-      message: "Admin login successful",
+      message: "login successful",
       token,
       user,
     });
   } catch (err) {
-    console.error("Admin login error:", err);
-    res.status(500).json({ error: "Server error" });
+    res.status(500).json({ error: err?.message });
   }
 };
 
 exports.adminActive = async (req, res) => {
   const { sessionId, isAdminOnline } = req.body;
-  console.log("Admin active status update:", sessionId, isAdminOnline);
 
   try {
     const conversation = await Conversation.findOneAndUpdate(
@@ -73,16 +83,15 @@ exports.adminActive = async (req, res) => {
     }
 
     res.json({ message: "Admin status updated", conversation });
-  } catch (error) {
-    console.error("Error updating admin status:", error);
-    res.status(500).json({ error: "Internal Server Error" });
+  } catch (err) {
+    res.status(500).json({ error: err?.message });
   }
 };
 
 // image reply
 exports.adminImageReply = async (req, res) => {
-  const { sessionId, imageData, fileName } = req.body;
-  console.log("rrr", imageData);
+  const { sessionId, imageData, fileName, repliedBy } = req.body;
+ 
   try {
     const matches = imageData.match(/^data:image\/(\w+);base64,(.+)$/);
     if (!matches) {
@@ -103,6 +112,7 @@ exports.adminImageReply = async (req, res) => {
     const imageMessage = {
       sender: "admin",
       type: "image",
+      repliedBy: repliedBy,
       imageUrl: imageUrl,
       timestamp: new Date(),
     };
@@ -121,9 +131,8 @@ exports.adminImageReply = async (req, res) => {
     }
 
     res.json({ status: "image_sent", imageUrl: imageUrl });
-  } catch (error) {
-    console.error("Error sending admin image reply:", error);
-    res.status(500).json({ error: "Server error" });
+  } catch (err) {
+    res.status(500).json({ error: err?.message });
   }
 };
 
@@ -157,15 +166,15 @@ exports.adminReply = async (req, res) => {
   res.json({ message: "Reply saved and emitted" });
 };
 
+
 //  GET admin status
 exports.adminStatus = async (req, res) => {
   try {
     const admin = await User.findById(req.params.adminId);
     if (!admin) return res.status(404).json({ error: "Admin not found" });
     res.status(200).json({ isOnline: admin.isOnline });
-  } catch (error) {
-    console.error("Error getting admin status:", error);
-    res.status(500).json({ error: "Server error" });
+  } catch (err) {
+    res.status(500).json({ error: err?.message });
   }
 };
 // exports.adminReply = async (req, res) => {
@@ -197,10 +206,7 @@ exports.adminStatus = async (req, res) => {
 exports.getAllMessages = async (req, res) => {
   try {
     const conversations = await Conversation.find();
-    // conversations[0].messages.forEach((message, index) => {
-    //   console.log(`Message ${index + 1}:`, message);
-    // });
-    // Flatten all messages into one array (optional)
+
     const allMessages = conversations.flatMap((conv) =>
       conv.messages
         .filter((msg) => msg.sender === "admin")
@@ -213,8 +219,50 @@ exports.getAllMessages = async (req, res) => {
     );
 
     return res.status(200).json({ messages: allMessages });
-  } catch (error) {
-    console.error("Error fetching all messages:", error);
-    return res.status(500).json({ error: "Internal server error" });
+  } catch (err) {
+    return res.status(500).json({ error: err?.message });
+  }
+};
+// get all subAdmins or agents created under the current admin
+exports.getAllSubAdmins = async (req, res) => {
+  console.log("current admin ", req.user);
+  try {
+    const subAdmins = await User.find({
+      role: { $in: ["sub-admin", "agent"] },
+      adminId: req.user.id, // must match current logged-in admin
+    });
+
+    if (!subAdmins || subAdmins.length === 0) {
+      return res
+        .status(404)
+        .json({ error: "No subAdmins or agents found for this admin" });
+    }
+
+    res.status(200).json({ subAdmins });
+  } catch (err) {
+    res.status(500).json({ error: err?.message });
+  }
+};
+// delete a subAdmins or agents  (only admin can perform this)
+exports.deleteUser = async (req, res) => {
+  try {
+    // Check if the logged-in user is admin
+    if (req.user.role !== "admin") {
+      return res
+        .status(403)
+        .json({ error: "Forbidden: Only admins can delete users" });
+    }
+
+    const { id } = req.params; // user ID to delete
+
+    const deletedUser = await User.findByIdAndDelete(id);
+
+    if (!deletedUser) {
+      return res.status(404).json({ error: "User not found" });
+    }
+
+    res.status(200).json({ message: "User deleted successfully", deletedUser });
+  } catch (err) {
+    res.status(500).json({ error: err?.message });
   }
 };

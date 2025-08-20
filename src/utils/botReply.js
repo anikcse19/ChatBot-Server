@@ -26,7 +26,7 @@ const stringSimilarity = require("string-similarity");
 function detectCategory(userMessage) {
   const categories = [...new Set(staticFaqs.map((f) => f.categoryName))];
 
-  console.log("categories", categories);
+
 
   const categoryExamples = categories.map((cat) => {
     const examples = staticFaqs
@@ -39,17 +39,17 @@ function detectCategory(userMessage) {
     return { category: cat, representative };
   });
 
-  console.log("categoryExamples", categoryExamples);
+
 
   const matches = stringSimilarity.findBestMatch(
     userMessage,
     categoryExamples.map((c) => c.representative)
   );
 
-  console.log("matches", matches);
+
 
   const bestMatch = matches.bestMatch;
-  console.log("bestMatch", bestMatch);
+
   if (bestMatch.rating > 0.4) {
     console.log(
       "returned",

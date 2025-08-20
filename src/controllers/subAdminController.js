@@ -1,17 +1,14 @@
-const User = require("../models/User");
-const crypto = require("crypto");
-const bcrypt = require("bcryptjs");
-const jwt = require("jsonwebtoken");
+const SubAdmin = require("../models/SubAdmin");
 
-exports.createUser = async (req, res) => {
+exports.createSubAdmin = async (req, res) => {
   try {
     const { name, email, role, password, adminId } = req.body;
 
-    if (!name || !email || !role || !password) {
+    if (!name || !email || !role || !password || !adminId) {
       return res.status(400).json({ error: "All fields are required" });
     }
 
-    const existing = await User.findOne({ email });
+    const existing = await SubAdmin.findOne({ email });
     if (existing) {
       return res.status(409).json({ error: "Email already exists" });
     }
@@ -20,7 +17,7 @@ exports.createUser = async (req, res) => {
     const hashedPassword = await bcrypt.hash(password, 10);
 
     const sessionId = crypto.randomBytes(12).toString("hex");
-    const user = new User({
+    const subAdmin = new SubAdmin({
       name,
       email,
       role,
@@ -29,15 +26,16 @@ exports.createUser = async (req, res) => {
       sessionId,
     });
 
-    await user.save();
-    res.status(201).json({ message: "User created", user });
+    await subAdmin.save();
+    res.status(201).json({ message: "subAdmin created", subAdmin });
   } catch (err) {
 
     res.status(500).json({ error: err?.message });
   }
 };
+// login
 // user login
-exports.userLogin = async (req, res) => {
+exports.subAdminLogin = async (req, res) => {
   try {
     const { email, password } = req.body;
 
@@ -45,12 +43,12 @@ exports.userLogin = async (req, res) => {
       return res.status(400).json({ error: "Email and password are required" });
     }
 
-    const user = await User.findOne({ email });
-    if (!user) {
-      return res.status(404).json({ error: "User not found" });
+    const subAdmin = await SubAdmin.findOne({ email });
+    if (!subAdmin) {
+      return res.status(404).json({ error: "sub-admin or agent not found" });
     }
 
-    if (user.role !== "user") {
+    if (subAdmin.role !== "agent" || subAdmin.role !== "sub-admin") {
       return res.status(403).json({ error: "Access denied. users only." });
     }
 
@@ -61,13 +59,19 @@ exports.userLogin = async (req, res) => {
     }
 
     const token = jwt.sign(
-      { id: user._id, email: user.email, role: user.role },
+      {
+        name: subAdmin.name,
+        id: subAdmin._id,
+        email: subAdmin.email,
+        adminId: subAdmin.adminId,
+        role: subAdmin.role,
+      },
       process.env.JWT_SECRET,
       { expiresIn: "7d" }
     );
 
     return res.status(200).json({
-      message: "user login successful",
+      message: "SubAdmin or Agent login successful",
       token,
       user,
     });
@@ -77,36 +81,15 @@ exports.userLogin = async (req, res) => {
   }
 };
 // get all users
-exports.getAllUsers = async (req, res) => {
+exports.getAllSubAdmins = async (req, res) => {
   try {
-    const users = await User.find();
+    const subAdmins = await SubAdmin.find();
 
-    if (!users) {
-      return res.status(404).json({ error: "users not exist" });
+    if (!subAdmins) {
+      return res.status(404).json({ error: "subAdmins not exist" });
     }
 
-    res.status(200).json({ users });
-  } catch (err) {
-
-    res.status(500).json({ error: err?.message });
-  }
-};
-exports.getUserByUserId = async (req, res) => {
-  try {
-    const { userId } = req.params;
-
-
-    if (!userId) {
-      return res.status(400).json({ error: "user ID is required" });
-    }
-
-    const user = await User.findOne({ _id: userId });
-
-    if (!user) {
-      return res.status(404).json({ error: "user not found" });
-    }
-
-    res.status(200).json({ user });
+    res.status(200).json({ subAdmins });
   } catch (err) {
 
     res.status(500).json({ error: err?.message });

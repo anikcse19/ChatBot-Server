@@ -8,12 +8,10 @@ const fs = require("fs");
 const path = require("path");
 
 exports.handleConversation = async (req, res) => {
-  const { userId, sessionId,adminId, message } = req.body;
-  // Get socket.io instance
-  // console.log("user id = ",userId)
+  const { userId, sessionId, adminId, message } = req.body;
+
   const user = await User.findOne({ _id: userId });
-  // console.log("userdata= ", user.name);
-  // 1. Save user's message to conversation
+
   let conversation = await Conversation.findOne({ sessionId });
   if (!conversation) {
     conversation = await Conversation.create({
@@ -79,7 +77,6 @@ exports.handleConversation = async (req, res) => {
 // image
 exports.handleImageMessage = async (req, res) => {
   const { userId, sessionId, imageData, fileName, adminId } = req.body;
-  console.log("rrr", imageData);
   try {
     const matches = imageData.match(/^data:image\/(\w+);base64,(.+)$/);
     if (!matches) {
@@ -90,7 +87,6 @@ exports.handleImageMessage = async (req, res) => {
     const base64Data = matches[2];
     const finalFileName = fileName || `img_${Date.now()}.${ext}`;
     const filePath = path.join(__dirname, "../public/uploads", finalFileName);
-    console.log(`Image saved: ${finalFileName}`);
 
     // Ensure folder exists before saving
     fs.mkdirSync(path.join(__dirname, "../public/uploads"), {
@@ -137,9 +133,9 @@ exports.handleImageMessage = async (req, res) => {
     }
 
     res.json({ status: "image_sent", imageUrl: imageUrl });
-  } catch (error) {
+  } catch (err) {
     console.error("Error handling image message:", error);
-    res.status(500).json({ error: "Server error" });
+    res.status(500).json({ error: err?.message });
   }
 };
 
@@ -160,8 +156,7 @@ exports.getConversationBySessionId = async (req, res) => {
 
     res.status(200).json({ conversation });
   } catch (err) {
-    console.error("Error fetching conversation:", err);
-    res.status(500).json({ error: "Server error" });
+    res.status(500).json({ error: err?.message });
   }
 };
 
@@ -183,8 +178,16 @@ exports.getConversationBySessionId = async (req, res) => {
 // };
 exports.getAllConversations = async (req, res) => {
   try {
-    const adminId = req.user.id; 
-    console.log("admin Id =",adminId)// or req.user._id, depending on your JWT payload
+    const role = req.user.role;
+    let adminId;
+    if (role === "admin") {
+       adminId = req.user.id;
+    }
+    else if(role==="sub-admin"|| role==="agent")
+    {
+      adminId = req.user.adminId;
+    }
+
     const conversations = await Conversation.find({ adminId });
 
     if (!conversations || conversations.length === 0) {
@@ -195,7 +198,6 @@ exports.getAllConversations = async (req, res) => {
 
     res.status(200).json({ conversations });
   } catch (err) {
-    console.error("Error fetching conversation:", err);
-    res.status(500).json({ error: "Server error" });
+    res.status(500).json({ error: err?.message });
   }
 };
